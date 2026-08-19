@@ -1,217 +1,394 @@
 {
   "items": [
     {
-      "description": "Before to start with huge observability solution. If you just need to control some application aspects, visualize how is working your system, or just identify a problem, may be usefull start with one, or a collection application, that help you to get this information in a easy and cheap way.\nAdditional to this, start with tools to get information about your system to determine if it's working well, can help you to define the final stack if you want to install a corporative solution to any project. I know some stories abot people that install, configure and even evolution some monitoring tools as a corporative solution, an when the solution is in production, they realize that the tools don't cover all the necessaries to control their applications :-D\nFollowing you can see an interesting post from Netflix writteb by Brendan Gregg that show this very clear.\nhttps://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55\nIn the article you can see how with a few tools and in a short time, you can get a lot of information about your system ;-)\nThere are many more commands and methodologies you can apply to drill deeper.",
-      "items": [],
-      "title": "2. General Tools"
-    },
-    {
       "description": "Get any data – metrics, events, logs, traces – from everywhere – systems, sensors, queues, databases and networks.",
-      "items": [],
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "cAdvisor",
+              "description": "Container Advisor that provides container users an understanding of the resource usage and performance characteristics of their running containers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 20653934,
+                "language": "Go",
+                "last_commit": "2026-07-20T21:23:51Z",
+                "owner": "google",
+                "repo": "cadvisor",
+                "stars": 19369
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ctop",
+              "description": "Top-like interface for container metrics.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 77419377,
+                "language": "Go",
+                "last_commit": "2024-07-08T11:15:48Z",
+                "owner": "bcicen",
+                "repo": "ctop",
+                "stars": 17826
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Node-exporter",
+              "description": "Prometheus stack, Exporter for machine metrics.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 9524057,
+                "language": "Go",
+                "last_commit": "2026-08-19T08:25:20Z",
+                "owner": "prometheus",
+                "repo": "node_exporter",
+                "stars": 13704
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kuberhealthy",
+              "description": "Kubernetes operator for synthetic monitoring and continuous process verification.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 137922416,
+                "language": "Go",
+                "last_commit": "2026-08-17T14:35:55Z",
+                "owner": "kuberhealthy",
+                "repo": "kuberhealthy",
+                "stars": 2262
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "sls-dev-tools",
+              "description": "The Developer Tools for the Serverless World - think Chrome Dev Tools but for Serverless.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 203430138,
+                "language": "JavaScript",
+                "last_commit": "2023-04-25T10:00:58Z",
+                "owner": "aleios-cloud",
+                "repo": "sls-dev-tools",
+                "stars": 871
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ingraind",
+              "description": "Security monitoring agent built around RedBPF for complex containerized environments and endpoints.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 130035428,
+                "language": "Rust",
+                "last_commit": "2023-04-13T17:13:28Z",
+                "owner": "foniod",
+                "repo": "foniod",
+                "stars": 408
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "SSL Certificate Monitor",
+              "description": "Open-source SSL/TLS certificate expiry monitoring tool with email alerts for observability of certificate health.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1160656833,
+                "language": "TypeScript",
+                "last_commit": "2026-02-18T16:53:51Z",
+                "owner": "brancogao",
+                "repo": "ssl-certificate-monitor",
+                "stars": 15
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "DNS Propagation Checker",
+              "description": "Open-source DNS propagation monitoring tool with global DNS server coverage for DNS observability.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1160617959,
+                "language": "TypeScript",
+                "last_commit": "2026-02-18T06:51:59Z",
+                "owner": "brancogao",
+                "repo": "dns-propagation-checker",
+                "stars": 1
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Elastic Beats",
+              "description": "Lightweight shippers for Elasticsearch & Logstash, Elastic stack.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 16554739,
+                "language": "Go",
+                "last_commit": "2026-08-19T12:06:28Z",
+                "owner": "elastic",
+                "repo": "beats",
+                "stars": 12639
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Tcollector",
+              "description": "Data collection framework for OpenTSDB.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1189586,
+                "language": "Python",
+                "last_commit": "2024-06-10T16:45:33Z",
+                "owner": "OpenTSDB",
+                "repo": "tcollector",
+                "stars": 510
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kube State Metrics",
+              "description": "The kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 58184885,
+                "language": "Go",
+                "last_commit": "2026-08-18T09:33:08Z",
+                "owner": "kubernetes",
+                "repo": "kube-state-metrics",
+                "stars": 6178
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Express State Metrics",
+              "description": "Simple, self-hosted module based on Socket.io and Chart.js to report realtime server metrics for Express-based node servers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 64599973,
+                "language": "JavaScript",
+                "last_commit": "2026-02-16T00:13:30Z",
+                "owner": "RafalWilinski",
+                "repo": "express-status-monitor",
+                "stars": 3614
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Netflix Vector",
+              "description": "An on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer's browser.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 31442355,
+                "language": "JavaScript",
+                "last_commit": "2021-08-10T21:54:14Z",
+                "owner": "Netflix",
+                "repo": "vector",
+                "stars": 3571
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "MyPerf4J",
+              "description": "High performance Java APM. Powered by ASM. Try it. Test it. If you feel its better, use it.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 124743561,
+                "language": "Java",
+                "last_commit": "2026-07-31T07:09:20Z",
+                "owner": "LinShunKang",
+                "repo": "MyPerf4J",
+                "stars": 3560
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "netwatch",
+              "description": "Network diagnostics TUI for operators: real-time per-process connection attribution via an eBPF kprobe (with / fallback), libpcap-based deep packet inspection across 13 protocols (TLS, QUIC, HTTP, DNS, SSH, MQTT, SNMP, ...), full RFC 9001 QUIC Initial decryption with cross-packet ClientHello reassembly, JA4 fingerprinting, TCP retransmit and out-of-order analytics, and an optional Landlock sandbox. Rust, MIT, macOS and Linux.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1158138526,
+                "language": "Rust",
+                "last_commit": "2026-08-15T23:47:57Z",
+                "owner": "matthart1983",
+                "repo": "netwatch",
+                "stars": 2562
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "SkyAPM-dotnet",
+              "description": "Native support agent in C# and .NETStandard platform, with the helps from Apache SkyWalking committer team.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 120469298,
+                "language": "C#",
+                "last_commit": "2026-08-01T23:50:20Z",
+                "owner": "SkyAPM",
+                "repo": "SkyAPM-dotnet",
+                "stars": 1658
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "pktvisor",
+              "description": "Observability agent for summarizing high volume, information dense data streams down to lightweight, immediately actionable observability data directly at the edge.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 241899022,
+                "language": "C++",
+                "last_commit": "2026-08-18T20:28:30Z",
+                "owner": "netboxlabs",
+                "repo": "pktvisor",
+                "stars": 523
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "inspectIT Ocelot",
+              "description": "Java agent for collecting performance, tracing and business data.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 160148747,
+                "language": "Java",
+                "last_commit": "2026-02-11T11:53:00Z",
+                "owner": "inspectIT",
+                "repo": "inspectit-ocelot",
+                "stars": 220
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "duplicacy-exporter",
+              "description": "Real-time Prometheus exporter for Duplicacy backups with live speed, progress, and completion metrics.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1151587385,
+                "language": "Python",
+                "last_commit": "2026-08-01T16:58:42Z",
+                "owner": "GeiserX",
+                "repo": "duplicacy-exporter",
+                "stars": 6
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Metrics"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Elastic Beats",
+              "description": "Lightweight shippers for Elasticsearch & Logstash, Elastic stack.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 16554739,
+                "language": "Go",
+                "last_commit": "2026-08-19T12:06:28Z",
+                "owner": "elastic",
+                "repo": "beats",
+                "stars": 12639
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Grafana Alloy",
+              "description": "Grafana's OpenTelemetry Collector distribution that unifies logs, metrics, and traces in a single agent; the supported successor to Promtail and Grafana Agent.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 764670636,
+                "language": "Go",
+                "last_commit": "2026-08-19T11:46:00Z",
+                "owner": "grafana",
+                "repo": "alloy",
+                "stars": 3448
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Logging"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "kubernetes-event-exporter",
+              "description": "This tool allows exporting the often missed Kubernetes events to various outputs so that they can be used for observability or alerting purposes.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 219929887,
+                "language": "Go",
+                "last_commit": "2022-08-31T11:33:33Z",
+                "owner": "opsgenie",
+                "repo": "kubernetes-event-exporter",
+                "stars": 1048
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "KubeEye",
+              "description": "Aims to find various problems on Kubernetes, such as application misconfiguration (using Polaris), cluster components unhealthy and node problems (using Node-Problem-Detector).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 310904702,
+                "language": "Go",
+                "last_commit": "2025-06-25T08:42:20Z",
+                "owner": "kubesphere",
+                "repo": "kubeeye",
+                "stars": 850
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "kspan",
+              "description": "Turning Kubernetes Events into spans.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 306648519,
+                "language": "Go",
+                "last_commit": "2023-06-24T11:56:27Z",
+                "owner": "weaveworks-experiments",
+                "repo": "kspan",
+                "stars": 806
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Events & Problems"
+        }
+      ],
       "title": "3. Collect"
     },
     {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "cAdvisor",
-          "description": "Container Advisor that provides container users an understanding of the resource usage and performance characteristics of their running containers.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-07-20T21:23:51Z",
-            "owner": "google",
-            "repo": "cadvisor",
-            "stars": 19366
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ctop",
-          "description": "Top-like interface for container metrics.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2024-07-08T11:15:48Z",
-            "owner": "bcicen",
-            "repo": "ctop",
-            "stars": 17826
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Node-exporter",
-          "description": "Prometheus stack, Exporter for machine metrics.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-08T07:43:51Z",
-            "owner": "prometheus",
-            "repo": "node_exporter",
-            "stars": 13702
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Kuberhealthy",
-          "description": "Kubernetes operator for synthetic monitoring and continuous process verification.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-17T14:35:55Z",
-            "owner": "kuberhealthy",
-            "repo": "kuberhealthy",
-            "stars": 2262
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "sls-dev-tools",
-          "description": "The Developer Tools for the Serverless World - think Chrome Dev Tools but for Serverless.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2023-04-25T10:00:58Z",
-            "owner": "aleios-cloud",
-            "repo": "sls-dev-tools",
-            "stars": 871
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ingraind",
-          "description": "Security monitoring agent built around RedBPF for complex containerized environments and endpoints.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Rust",
-            "last_commit": "2023-04-13T17:13:28Z",
-            "owner": "foniod",
-            "repo": "foniod",
-            "stars": 408
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "SSL Certificate Monitor",
-          "description": "Open-source SSL/TLS certificate expiry monitoring tool with email alerts for observability of certificate health.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-02-18T16:53:51Z",
-            "owner": "brancogao",
-            "repo": "ssl-certificate-monitor",
-            "stars": 15
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "DNS Propagation Checker",
-          "description": "Open-source DNS propagation monitoring tool with global DNS server coverage for DNS observability.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-02-18T06:51:59Z",
-            "owner": "brancogao",
-            "repo": "dns-propagation-checker",
-            "stars": 1
-          }
-        }
-      ],
-      "title": "Metrics"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Elastic Beats",
-          "description": "Lightweight shippers for Elasticsearch & Logstash, Elastic stack.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-18T20:09:34Z",
-            "owner": "elastic",
-            "repo": "beats",
-            "stars": 12638
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Grafana Alloy",
-          "description": "Grafana's OpenTelemetry Collector distribution that unifies logs, metrics, and traces in a single agent; the supported successor to Promtail and Grafana Agent.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-19T01:10:21Z",
-            "owner": "grafana",
-            "repo": "alloy",
-            "stars": 3446
-          }
-        }
-      ],
-      "title": "Logging"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "kubernetes-event-exporter",
-          "description": "This tool allows exporting the often missed Kubernetes events to various outputs so that they can be used for observability or alerting purposes.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Go",
-            "last_commit": "2022-08-31T11:33:33Z",
-            "owner": "opsgenie",
-            "repo": "kubernetes-event-exporter",
-            "stars": 1048
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "KubeEye",
-          "description": "Aims to find various problems on Kubernetes, such as application misconfiguration (using Polaris), cluster components unhealthy and node problems (using Node-Problem-Detector).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2025-06-25T08:42:20Z",
-            "owner": "kubesphere",
-            "repo": "kubeeye",
-            "stars": 850
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "kspan",
-          "description": "Turning Kubernetes Events into spans.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2023-06-24T11:56:27Z",
-            "owner": "weaveworks-experiments",
-            "repo": "kspan",
-            "stars": 806
-          }
-        }
-      ],
-      "title": "Events & Problems"
-    },
-    {
-      "description": "",
+      "description": null,
       "items": [
         {
           "node_type": "item",
@@ -220,11 +397,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1377867,
             "language": "Python",
-            "last_commit": "2026-08-10T14:07:35Z",
+            "last_commit": "2026-08-19T09:56:07Z",
             "owner": "locustio",
             "repo": "locust",
-            "stars": 28076
+            "stars": 28080
           }
         },
         {
@@ -234,6 +412,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 12080551,
             "language": "Go",
             "last_commit": "2026-02-16T14:07:07Z",
             "owner": "tsenart",
@@ -248,6 +427,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 10379607,
             "language": "Go",
             "last_commit": "2026-01-27T15:26:22Z",
             "owner": "probelabs",
@@ -262,6 +442,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 125127188,
             "language": "Go",
             "last_commit": "2026-08-01T03:42:55Z",
             "owner": "bojand",
@@ -276,6 +457,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 5150693,
             "language": "Python",
             "last_commit": "2026-08-14T14:31:15Z",
             "owner": "yandex",
@@ -290,8 +472,9 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 30940272,
             "language": "Python",
-            "last_commit": "2026-08-18T14:19:11Z",
+            "last_commit": "2026-08-19T12:06:16Z",
             "owner": "Blazemeter",
             "repo": "taurus",
             "stars": 2109
@@ -304,6 +487,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 22936695,
             "language": "Go",
             "last_commit": "2024-04-19T12:28:22Z",
             "owner": "pinterest",
@@ -318,6 +502,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 45982181,
             "language": "Go",
             "last_commit": "2026-08-18T14:06:33Z",
             "owner": "yandex",
@@ -332,6 +517,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 5492154,
             "language": "C",
             "last_commit": "2020-02-04T15:32:14Z",
             "owner": "yandex-load",
@@ -346,6 +532,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 714666245,
             "language": "Python",
             "last_commit": "2026-08-18T20:50:49Z",
             "owner": "eventum-generator",
@@ -360,6 +547,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 39888422,
             "language": "Python",
             "last_commit": "2017-11-24T12:26:51Z",
             "owner": "yandex-load",
@@ -374,6 +562,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 126188584,
             "language": "Go",
             "last_commit": "2020-11-21T11:20:51Z",
             "owner": "straightdave",
@@ -394,11 +583,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 75164823,
             "language": "Java",
-            "last_commit": "2026-08-18T09:53:38Z",
+            "last_commit": "2026-08-19T09:42:51Z",
             "owner": "apache",
             "repo": "rocketmq",
-            "stars": 22557
+            "stars": 22559
           }
         },
         {
@@ -408,11 +598,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 16621659,
             "language": "Java",
-            "last_commit": "2026-08-19T01:46:05Z",
+            "last_commit": "2026-08-19T10:19:37Z",
             "owner": "aeron-io",
             "repo": "aeron",
-            "stars": 8802
+            "stars": 8805
           }
         },
         {
@@ -422,6 +613,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 34676773,
             "language": "C",
             "last_commit": "2021-03-17T14:10:45Z",
             "owner": "antirez",
@@ -436,11 +628,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 36350782,
             "language": "Erlang",
             "last_commit": "2026-08-18T20:08:38Z",
             "owner": "vernemq",
             "repo": "vernemq",
-            "stars": 3619
+            "stars": 3620
           }
         },
         {
@@ -450,6 +643,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 45631123,
             "language": "Go",
             "last_commit": "2023-09-27T12:52:08Z",
             "owner": "nanopack",
@@ -464,6 +658,7 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "id": 6294239,
             "language": "JavaScript",
             "last_commit": "2019-11-13T13:09:50Z",
             "owner": "moscajs",
@@ -478,6 +673,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 24999157,
             "language": "C",
             "last_commit": "2025-06-25T00:12:47Z",
             "owner": "zeromq",
@@ -492,6 +688,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 277620818,
             "language": "Go",
             "last_commit": "2025-11-20T02:42:27Z",
             "owner": "observIQ",
@@ -504,935 +701,1144 @@
     },
     {
       "description": "Receive data from the agents or instrumentation frameworks. The received data is usually persisted to some kind of storage or piped to another tool.\nDepending on the collector type, performance data enhancement and modification is also possible inside of the collector.\nIn addition, collectors can have other responsibilities. For example, some expose the data access API, configuration points for the agents or user interface for interaction with the stored data.",
-      "items": [],
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Loki",
+              "description": "Horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 129717717,
+                "language": "Go",
+                "last_commit": "2026-08-19T12:36:39Z",
+                "owner": "grafana",
+                "repo": "loki",
+                "stars": 28760
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "logdy",
+              "description": "Supercharge terminal logs with web browser UI and low-code. It's like jq, tail, less, grep and awk merged together and available in a clean UI. Self-hosted, single binary.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 747929369,
+                "language": "Go",
+                "last_commit": "2025-08-25T14:43:56Z",
+                "owner": "logdyhq",
+                "repo": "logdy-core",
+                "stars": 2272
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Logbook",
+              "description": "Extensible Java library to enable complete request and response logging for different client- and server-side technologies.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 42457394,
+                "language": "Java",
+                "last_commit": "2026-08-18T04:03:00Z",
+                "owner": "zalando",
+                "repo": "logbook",
+                "stars": 2060
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Brubeck",
+              "description": "Statsd-compatible stats aggregator written in C.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 37189021,
+                "language": "C",
+                "last_commit": "2019-11-14T10:59:50Z",
+                "owner": "github",
+                "repo": "brubeck",
+                "stars": 1177
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "PFC-JSONL",
+              "description": "Specialized JSONL log compressor with block-level timestamp indexing for efficient log storage. ~9% compression ratio with Fluent Bit integration and DuckDB queryable archives.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1198473087,
+                "language": null,
+                "last_commit": "2026-06-19T14:00:45Z",
+                "owner": "ImpossibleForge",
+                "repo": "pfc-jsonl",
+                "stars": 6
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "logden",
+              "description": "Compact centralized logging gateway that ingests logs over HTTP into a Go stdlib service and stores them in ClickHouse, built to run on a ~1 GB RAM VPS.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1259208425,
+                "language": "Go",
+                "last_commit": "2026-08-06T09:33:59Z",
+                "owner": "ginkida",
+                "repo": "logden",
+                "stars": 3
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Logging"
+        }
+      ],
       "title": "6. Collector"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "Loki",
-          "description": "Horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-19T02:30:46Z",
-            "owner": "grafana",
-            "repo": "loki",
-            "stars": 28759
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "GreptimeDB",
+              "description": "Open-source, cloud-native observability database with unified SQL and PromQL support for metrics, logs, and traces.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 480217156,
+                "language": "Rust",
+                "last_commit": "2026-08-19T12:19:10Z",
+                "owner": "GreptimeTeam",
+                "repo": "greptimedb",
+                "stars": 6552
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Netflix Atlas",
+              "description": "Atlas features in-memory data storage, allowing it to gather and report very large numbers of metrics, very quickly.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 22631422,
+                "language": "Scala",
+                "last_commit": "2026-08-13T18:47:49Z",
+                "owner": "Netflix",
+                "repo": "atlas",
+                "stars": 3562
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Metric Tank",
+              "description": "Provides high availability and efficient long-term storage, retrieval, and processing for large-scale environments.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 30401116,
+                "language": "Go",
+                "last_commit": "2023-08-23T15:17:14Z",
+                "owner": "grafana-cold-storage",
+                "repo": "metrictank",
+                "stars": 617
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "LynxDB",
+              "description": "Lightweight columnar log analytics database with a pipe-style query language inspired by SPL.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1171631123,
+                "language": "Go",
+                "last_commit": "2026-08-15T03:03:35Z",
+                "owner": "lynxbase",
+                "repo": "lynxdb",
+                "stars": 282
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Time Series Database"
         },
         {
-          "node_type": "item",
-          "title": "logdy",
-          "description": "Supercharge terminal logs with web browser UI and low-code. It's like jq, tail, less, grep and awk merged together and available in a clean UI. Self-hosted, single binary.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2025-08-25T14:43:56Z",
-            "owner": "logdyhq",
-            "repo": "logdy-core",
-            "stars": 2271
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Cortex",
+              "description": "Horizontally scalable, highly available, multi-tenant, long term storage for Prometheus.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 67793333,
+                "language": "Go",
+                "last_commit": "2026-08-18T13:32:07Z",
+                "owner": "cortexproject",
+                "repo": "cortex",
+                "stars": 5851
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "M3",
+              "description": "Distributed TSDB and Query Engine, Prometheus Sidecar, Metrics Aggregator, and more such as Graphite storage and query engine.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 61153677,
+                "language": "Go",
+                "last_commit": "2026-08-17T15:26:52Z",
+                "owner": "m3db",
+                "repo": "m3",
+                "stars": 4893
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Promscale",
+              "description": "Unified metric and trace observability backend for Prometheus, Jaeger and OpenTelemetry built on PostgreSQL and TimescaleDB.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 252745692,
+                "language": "Go",
+                "last_commit": "2024-03-28T23:03:17Z",
+                "owner": "timescale",
+                "repo": "promscale",
+                "stars": 1313
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Observatorium",
+              "description": "This system will allow you to ingest, store and use common observability signals like metrics, logging and tracing.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 190750461,
+                "language": "Go",
+                "last_commit": "2025-04-16T22:52:10Z",
+                "owner": "observatorium",
+                "repo": "observatorium",
+                "stars": 226
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "\"Meta Projects\" (data storage, multi-tenant, aggregation, high availability, etc)"
         },
         {
-          "node_type": "item",
-          "title": "Logbook",
-          "description": "Extensible Java library to enable complete request and response logging for different client- and server-side technologies.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Java",
-            "last_commit": "2026-08-18T04:03:00Z",
-            "owner": "zalando",
-            "repo": "logbook",
-            "stars": 2060
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Brubeck",
-          "description": "Statsd-compatible stats aggregator written in C.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "C",
-            "last_commit": "2019-11-14T10:59:50Z",
-            "owner": "github",
-            "repo": "brubeck",
-            "stars": 1177
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "PFC-JSONL",
-          "description": "Specialized JSONL log compressor with block-level timestamp indexing for efficient log storage. ~9% compression ratio with Fluent Bit integration and DuckDB queryable archives.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2026-06-19T14:00:45Z",
-            "owner": "ImpossibleForge",
-            "repo": "pfc-jsonl",
-            "stars": 6
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "logden",
-          "description": "Compact centralized logging gateway that ingests logs over HTTP into a Go stdlib service and stores them in ClickHouse, built to run on a ~1 GB RAM VPS.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-06T09:33:59Z",
-            "owner": "ginkida",
-            "repo": "logden",
-            "stars": 3
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Zipkin",
+              "description": "A distributed tracing system.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 4576305,
+                "language": "Java",
+                "last_commit": "2026-08-06T04:10:29Z",
+                "owner": "openzipkin",
+                "repo": "zipkin",
+                "stars": 17454
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Grafana Tempo",
+              "description": "Open source, easy-to-use and high-scale distributed tracing backend.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 236055696,
+                "language": "Go",
+                "last_commit": "2026-08-19T11:18:18Z",
+                "owner": "grafana",
+                "repo": "tempo",
+                "stars": 5442
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Tracing"
         }
       ],
-      "title": "Logging"
-    },
-    {
-      "description": "",
-      "items": [],
       "title": "7. Storage"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "GreptimeDB",
-          "description": "Open-source, cloud-native observability database with unified SQL and PromQL support for metrics, logs, and traces.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-19T02:27:22Z",
-            "owner": "GreptimeTeam",
-            "repo": "greptimedb",
-            "stars": 6549
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Kibana",
+              "description": "Elastic stack.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 7833168,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T12:42:14Z",
+                "owner": "elastic",
+                "repo": "kibana",
+                "stars": 21251
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Chronograf",
+              "description": "User interface and administrative component of the InfluxDB platform.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 66506962,
+                "language": "TypeScript",
+                "last_commit": "2026-08-11T08:39:57Z",
+                "owner": "influxdata",
+                "repo": "chronograf",
+                "stars": 1566
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Skooner",
+              "description": "Simple Kubernetes real-time dashboard and management.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 175833318,
+                "language": "JavaScript",
+                "last_commit": "2024-06-30T11:31:54Z",
+                "owner": "skooner-k8s",
+                "repo": "skooner",
+                "stars": 1442
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "SLO-Tracker",
+              "description": "A simple but effective way to track SLO's and Error budgets. SLO-tracker can be integrated with few alerting tools via webhook integration to receive SLO voilating incidents.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 339293025,
+                "language": "TypeScript",
+                "last_commit": "2023-01-30T23:18:53Z",
+                "owner": "roshan8",
+                "repo": "slo-tracker",
+                "stars": 403
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "KubeStellar Console",
+              "description": "AI-powered multi-cluster Kubernetes dashboard with real-time observability across edge and cloud clusters, CNCF project integrations (Prometheus, Grafana, Istio, Falco, OPA), and 160+ monitoring cards.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1135473716,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T11:48:09Z",
+                "owner": "kubestellar",
+                "repo": "console",
+                "stars": 127
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "StatLite",
+              "description": "Ultra-light self-hosted metrics dashboard for small Spring Boot deployments. Polls Spring Boot Actuator directly, stores samples in SQLite, and runs as a single Go binary.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1300740351,
+                "language": "Go",
+                "last_commit": "2026-08-18T21:39:10Z",
+                "owner": "PVRLabs",
+                "repo": "statlite",
+                "stars": 103
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Grafterm",
+              "description": "Visualize metrics dashboards on the terminal, like a simplified and minimalist version of Grafana for terminal.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 179440789,
+                "language": "Go",
+                "last_commit": "2022-06-10T00:17:48Z",
+                "owner": "slok",
+                "repo": "grafterm",
+                "stars": 1138
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "PromViz",
+              "description": "Application that helps you visualize the traffic of your cluster from Prometheus data.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 106374828,
+                "language": "Go",
+                "last_commit": "2024-07-02T15:09:39Z",
+                "owner": "nghialv",
+                "repo": "promviz",
+                "stars": 955
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Grizzly",
+              "description": "A utility for managing various observability resources with Jsonnet.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 250869627,
+                "language": "Go",
+                "last_commit": "2026-06-05T10:34:43Z",
+                "owner": "grafana-cold-storage",
+                "repo": "grizzly",
+                "stars": 710
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Dashboarding"
         },
         {
-          "node_type": "item",
-          "title": "Netflix Atlas",
-          "description": "Atlas features in-memory data storage, allowing it to gather and report very large numbers of metrics, very quickly.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Scala",
-            "last_commit": "2026-08-13T18:47:49Z",
-            "owner": "Netflix",
-            "repo": "atlas",
-            "stars": 3562
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Zipkin",
+              "description": "A distributed tracing system.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 4576305,
+                "language": "Java",
+                "last_commit": "2026-08-06T04:10:29Z",
+                "owner": "openzipkin",
+                "repo": "zipkin",
+                "stars": 17454
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Grafana Tempo",
+              "description": "Open source, easy-to-use and high-scale distributed tracing backend.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 236055696,
+                "language": "Go",
+                "last_commit": "2026-08-19T11:18:18Z",
+                "owner": "grafana",
+                "repo": "tempo",
+                "stars": 5442
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Tracing"
         },
         {
-          "node_type": "item",
-          "title": "Metric Tank",
-          "description": "Provides high availability and efficient long-term storage, retrieval, and processing for large-scale environments.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Go",
-            "last_commit": "2023-08-23T15:17:14Z",
-            "owner": "grafana-cold-storage",
-            "repo": "metrictank",
-            "stars": 617
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "LynxDB",
-          "description": "Lightweight columnar log analytics database with a pipe-style query language inspired by SPL.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-15T03:03:35Z",
-            "owner": "lynxbase",
-            "repo": "lynxdb",
-            "stars": 282
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Vizceral",
+              "description": "Component for displaying traffic data on a WebGL canvas. If a graph of nodes and edges with data about traffic volume is provided, it will render a traffic graph animating the connection volume between nodes.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 59678017,
+                "language": "JavaScript",
+                "last_commit": "2023-11-28T04:23:58Z",
+                "owner": "Netflix",
+                "repo": "vizceral",
+                "stars": 4094
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Novatec Service Dependency Graph Panel",
+              "description": "A Grafana panel for visualizing a Service Dependency Graph.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 174122913,
+                "language": "TypeScript",
+                "last_commit": "2026-02-07T12:01:44Z",
+                "owner": "NovatecConsulting",
+                "repo": "novatec-service-dependency-graph-panel",
+                "stars": 213
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Graph of Nodes"
         }
       ],
-      "title": "Time Series Database"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Cortex",
-          "description": "Horizontally scalable, highly available, multi-tenant, long term storage for Prometheus.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-18T13:32:07Z",
-            "owner": "cortexproject",
-            "repo": "cortex",
-            "stars": 5850
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "M3",
-          "description": "Distributed TSDB and Query Engine, Prometheus Sidecar, Metrics Aggregator, and more such as Graphite storage and query engine.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-17T15:26:52Z",
-            "owner": "m3db",
-            "repo": "m3",
-            "stars": 4892
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Promscale",
-          "description": "Unified metric and trace observability backend for Prometheus, Jaeger and OpenTelemetry built on PostgreSQL and TimescaleDB.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Go",
-            "last_commit": "2024-03-28T23:03:17Z",
-            "owner": "timescale",
-            "repo": "promscale",
-            "stars": 1312
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Observatorium",
-          "description": "This system will allow you to ingest, store and use common observability signals like metrics, logging and tracing.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2025-04-16T22:52:10Z",
-            "owner": "observatorium",
-            "repo": "observatorium",
-            "stars": 226
-          }
-        }
-      ],
-      "title": "\"Meta Projects\" (data storage, multi-tenant, aggregation, high availability, etc)"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Zipkin",
-          "description": "A distributed tracing system.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Java",
-            "last_commit": "2026-08-06T04:10:29Z",
-            "owner": "openzipkin",
-            "repo": "zipkin",
-            "stars": 17454
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Grafana Tempo",
-          "description": "Open source, easy-to-use and high-scale distributed tracing backend.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-19T02:17:52Z",
-            "owner": "grafana",
-            "repo": "tempo",
-            "stars": 5441
-          }
-        }
-      ],
-      "title": "Tracing"
-    },
-    {
-      "description": "",
-      "items": [],
       "title": "8. Visualization"
     },
     {
-      "description": "",
+      "description": "Tools for rocessing the system data.",
       "items": [
         {
-          "node_type": "item",
-          "title": "Kibana",
-          "description": "Elastic stack.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-19T02:22:58Z",
-            "owner": "elastic",
-            "repo": "kibana",
-            "stars": 21249
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Prometheus Alertmanager",
+              "description": "Prometheus stack, Prometheus Alertmanager, written in go.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 11452538,
+                "language": "Go",
+                "last_commit": "2026-08-19T09:59:50Z",
+                "owner": "prometheus",
+                "repo": "alertmanager",
+                "stars": 8587
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kapacitor",
+              "description": "TICK stack, written in go.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 41681600,
+                "language": "Go",
+                "last_commit": "2026-08-10T15:38:52Z",
+                "owner": "influxdata",
+                "repo": "kapacitor",
+                "stars": 2374
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Seyren",
+              "description": "An alerting dashboard for Graphite.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 4167742,
+                "language": "Java",
+                "last_commit": "2022-12-16T01:42:14Z",
+                "owner": "scobal",
+                "repo": "seyren",
+                "stars": 861
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "NthLayer",
+              "description": "Reliability requirements as code. Generates Grafana dashboards, Prometheus alerts, SLOs, and PagerDuty configs from service.yaml. Includes deployment gates that block deploys when error budget is exhausted.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1104878764,
+                "language": "Shell",
+                "last_commit": "2026-07-13T05:11:30Z",
+                "owner": "rsionnach",
+                "repo": "nthlayer",
+                "stars": 17
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "devalerts",
+              "description": "Zero-dependency Python library that sends unhandled exceptions straight to Telegram or Slack, with fingerprint-based dedup and rate-limiting.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1303516611,
+                "language": "Python",
+                "last_commit": "2026-08-14T23:34:15Z",
+                "owner": "sslinNn",
+                "repo": "devalerts",
+                "stars": 0
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Alerts"
         },
         {
-          "node_type": "item",
-          "title": "Chronograf",
-          "description": "User interface and administrative component of the InfluxDB platform.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-11T08:39:57Z",
-            "owner": "influxdata",
-            "repo": "chronograf",
-            "stars": 1566
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Odin",
+              "description": "A programmable, observable and distributed job orchestration system.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 264516696,
+                "language": "Go",
+                "last_commit": "2023-12-08T18:07:33Z",
+                "owner": "theycallmemac",
+                "repo": "odin",
+                "stars": 483
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "prometheus-am-executor",
+              "description": "HTTP server that receives alerts from the Prometheus Alertmanager and executes a given command with alert details set as environment variables.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 55967741,
+                "language": "Go",
+                "last_commit": "2022-03-27T20:01:24Z",
+                "owner": "imgix",
+                "repo": "prometheus-am-executor",
+                "stars": 228
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Triggers"
         },
         {
-          "node_type": "item",
-          "title": "Skooner",
-          "description": "Simple Kubernetes real-time dashboard and management.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2024-06-30T11:31:54Z",
-            "owner": "skooner-k8s",
-            "repo": "skooner",
-            "stars": 1442
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "SLO-Tracker",
-          "description": "A simple but effective way to track SLO's and Error budgets. SLO-tracker can be integrated with few alerting tools via webhook integration to receive SLO voilating incidents.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2023-01-30T23:18:53Z",
-            "owner": "roshan8",
-            "repo": "slo-tracker",
-            "stars": 403
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "KubeStellar Console",
-          "description": "AI-powered multi-cluster Kubernetes dashboard with real-time observability across edge and cloud clusters, CNCF project integrations (Prometheus, Grafana, Istio, Falco, OPA), and 160+ monitoring cards.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-19T00:37:13Z",
-            "owner": "kubestellar",
-            "repo": "console",
-            "stars": 127
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "StatLite",
-          "description": "Ultra-light self-hosted metrics dashboard for small Spring Boot deployments. Polls Spring Boot Actuator directly, stores samples in SQLite, and runs as a single Go binary.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-18T21:39:10Z",
-            "owner": "PVRLabs",
-            "repo": "statlite",
-            "stars": 101
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Chaos Genius",
+              "description": "ML powered analytics engine for anomaly/outlier detection and root cause analysis.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 371296634,
+                "language": "Python",
+                "last_commit": "2024-09-12T07:46:44Z",
+                "owner": "chaos-genius",
+                "repo": "chaos_genius",
+                "stars": 778
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Anomaly Detection in Prometheus Metrics",
+              "description": "Prototype for a Prometheus Anomaly Detector (PAD) which can be deployed on OpenShift. The PAD is a framework to deploy a metric prediction model to detect anomalies in prometheus metrics.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 186887711,
+                "language": "Jupyter Notebook",
+                "last_commit": "2023-05-27T06:27:12Z",
+                "owner": "AICoE",
+                "repo": "prometheus-anomaly-detector",
+                "stars": 611
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Project Scorpio",
+              "description": "Log Anomaly Detector.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 148634371,
+                "language": "Jupyter Notebook",
+                "last_commit": "2023-04-21T20:24:46Z",
+                "owner": "AICoE",
+                "repo": "log-anomaly-detector",
+                "stars": 347
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "observability-mcp",
+              "description": "Cross-signal anomaly detection (z-score) over Prometheus metrics and Loki logs, exposed to AI agents through the Model Context Protocol. Pluggable connectors for additional backends, weighted health scoring, Web UI, and an ArtifactHub-listed Helm chart.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1193031308,
+                "language": "TypeScript",
+                "last_commit": "2026-08-10T20:55:32Z",
+                "owner": "ThoTischner",
+                "repo": "observability-mcp",
+                "stars": 6
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Banshee",
+              "description": "Real-time anomalies(outliers) detection system for periodic metrics.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 56952191,
+                "language": "Go",
+                "last_commit": "2016-04-22T11:01:34Z",
+                "owner": "bbotte",
+                "repo": "banshee-detection_system",
+                "stars": 2
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Anomalies Detection"
         }
       ],
-      "title": "Dashboarding"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Zipkin",
-          "description": "A distributed tracing system.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Java",
-            "last_commit": "2026-08-06T04:10:29Z",
-            "owner": "openzipkin",
-            "repo": "zipkin",
-            "stars": 17454
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Grafana Tempo",
-          "description": "Open source, easy-to-use and high-scale distributed tracing backend.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-19T02:17:52Z",
-            "owner": "grafana",
-            "repo": "tempo",
-            "stars": 5441
-          }
-        }
-      ],
-      "title": "Tracing"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Vizceral",
-          "description": "Component for displaying traffic data on a WebGL canvas. If a graph of nodes and edges with data about traffic volume is provided, it will render a traffic graph animating the connection volume between nodes.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2023-11-28T04:23:58Z",
-            "owner": "Netflix",
-            "repo": "vizceral",
-            "stars": 4094
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Novatec Service Dependency Graph Panel",
-          "description": "A Grafana panel for visualizing a Service Dependency Graph.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-02-07T12:01:44Z",
-            "owner": "NovatecConsulting",
-            "repo": "novatec-service-dependency-graph-panel",
-            "stars": 212
-          }
-        }
-      ],
-      "title": "Graph of Nodes"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Odin",
-          "description": "A programmable, observable and distributed job orchestration system.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2023-12-08T18:07:33Z",
-            "owner": "theycallmemac",
-            "repo": "odin",
-            "stars": 483
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "prometheus-am-executor",
-          "description": "HTTP server that receives alerts from the Prometheus Alertmanager and executes a given command with alert details set as environment variables.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Go",
-            "last_commit": "2022-03-27T20:01:24Z",
-            "owner": "imgix",
-            "repo": "prometheus-am-executor",
-            "stars": 228
-          }
-        }
-      ],
-      "title": "Triggers"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Chaos Genius",
-          "description": "ML powered analytics engine for anomaly/outlier detection and root cause analysis.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Python",
-            "last_commit": "2024-09-12T07:46:44Z",
-            "owner": "chaos-genius",
-            "repo": "chaos_genius",
-            "stars": 778
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Anomaly Detection in Prometheus Metrics",
-          "description": "Prototype for a Prometheus Anomaly Detector (PAD) which can be deployed on OpenShift. The PAD is a framework to deploy a metric prediction model to detect anomalies in prometheus metrics.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Jupyter Notebook",
-            "last_commit": "2023-05-27T06:27:12Z",
-            "owner": "AICoE",
-            "repo": "prometheus-anomaly-detector",
-            "stars": 611
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Project Scorpio",
-          "description": "Log Anomaly Detector.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Jupyter Notebook",
-            "last_commit": "2023-04-21T20:24:46Z",
-            "owner": "AICoE",
-            "repo": "log-anomaly-detector",
-            "stars": 347
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "observability-mcp",
-          "description": "Cross-signal anomaly detection (z-score) over Prometheus metrics and Loki logs, exposed to AI agents through the Model Context Protocol. Pluggable connectors for additional backends, weighted health scoring, Web UI, and an ArtifactHub-listed Helm chart.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-10T20:55:32Z",
-            "owner": "ThoTischner",
-            "repo": "observability-mcp",
-            "stars": 6
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Banshee",
-          "description": "Real-time anomalies(outliers) detection system for periodic metrics.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2016-04-22T11:01:34Z",
-            "owner": "bbotte",
-            "repo": "banshee-detection_system",
-            "stars": 2
-          }
-        }
-      ],
-      "title": "Anomalies Detection"
+      "title": "9. Processing and Analyze and Act"
     },
     {
       "description": "As LLMs and AI agents become core to modern applications, observability for these systems has emerged as a discipline of its own. Unlike traditional APM, LLM observability focuses on prompt tracing, token & cost tracking, evaluation & quality metrics, and agent workflow debugging.",
-      "items": [],
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Langfuse",
+              "description": "Open source LLM engineering platform for observability, metrics, evals, prompt management and datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 642497346,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T12:40:31Z",
+                "owner": "langfuse",
+                "repo": "langfuse",
+                "stars": 33381
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Opik",
+              "description": "Debug, evaluate, and monitor LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 638951438,
+                "language": "Python",
+                "last_commit": "2026-08-19T12:42:18Z",
+                "owner": "comet-ml",
+                "repo": "opik",
+                "stars": 21471
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Arize Phoenix",
+              "description": "Open-source AI observability platform for tracing, evaluation, datasets, experiments, prompt management and playground. Built on OpenTelemetry with Python and TypeScript support.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 564072810,
+                "language": "Python",
+                "last_commit": "2026-08-19T10:58:26Z",
+                "owner": "Arize-ai",
+                "repo": "phoenix",
+                "stars": 11108
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Helicone",
+              "description": "Open source LLM observability platform and AI Gateway. One line of code to monitor, evaluate, and experiment across 100+ providers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 595832198,
+                "language": "TypeScript",
+                "last_commit": "2026-08-16T20:26:29Z",
+                "owner": "Helicone",
+                "repo": "helicone",
+                "stars": 6083
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Latitude",
+              "description": "Open-source LLM observability and evaluation platform. Traces, monitors, and evaluates AI agents in production, clusters failures into issues, and generates evals from real-world failures. Built on OpenTelemetry with OpenInference and OpenLLMetry support.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 821360765,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T12:35:31Z",
+                "owner": "latitude-dev",
+                "repo": "latitude-llm",
+                "stars": 4593
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Agenta",
+              "description": "Open-source LLMOps platform for prompt playground, prompt management, LLM evaluation, and observability.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 632871628,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T12:39:32Z",
+                "owner": "Agenta-AI",
+                "repo": "agenta",
+                "stars": 4490
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Pydantic Logfire",
+              "description": "AI observability platform for production LLM and agent systems. Built on OpenTelemetry with first-class Pydantic AI support.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 790713784,
+                "language": "Python",
+                "last_commit": "2026-08-19T12:19:46Z",
+                "owner": "pydantic",
+                "repo": "logfire",
+                "stars": 4430
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Laminar",
+              "description": "Open-source observability and analytics platform purpose-built for AI agents. Built in Rust for performance.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 849139885,
+                "language": "TypeScript",
+                "last_commit": "2026-08-18T23:47:02Z",
+                "owner": "lmnr-ai",
+                "repo": "lmnr",
+                "stars": 3182
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenLIT",
+              "description": "OTel-native observability and evals for LLMs and GPUs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 747319327,
+                "language": "TypeScript",
+                "last_commit": "2026-08-17T10:35:57Z",
+                "owner": "openlit",
+                "repo": "openlit",
+                "stars": 2700
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Langtrace",
+              "description": "Open source OpenTelemetry-based observability for LLM applications.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 779843396,
+                "language": "TypeScript",
+                "last_commit": "2025-11-17T15:08:48Z",
+                "owner": "Scale3-Labs",
+                "repo": "langtrace",
+                "stars": 1228
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Heron",
+              "description": "Passive, SDK-free observability for LLM and agent traffic. Reconstructs agent turns and service topology from post-TLS HTTP on the wire — no SDK and no proxy in the request path. Decodes OpenAI/Anthropic/Gemini, folds multi-leg proxy hops, auto-classifies vLLM/SGLang/Ollama backends. Single static binary with embedded console, Apache-2.0.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1204399383,
+                "language": "Rust",
+                "last_commit": "2026-08-18T08:24:47Z",
+                "owner": "Netis",
+                "repo": "heron",
+                "stars": 86
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Nika",
+              "description": "Workflow engine for AI where observability is built into the runtime: every run emits a typed event stream and a hash-chained, tamper-evident trace ( · ), with static cost floors before the run and per-task cost rows after. Local-first, single Rust binary, AGPL.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1126625946,
+                "language": "Rust",
+                "last_commit": "2026-08-19T12:39:54Z",
+                "owner": "supernovae-st",
+                "repo": "nika",
+                "stars": 54
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "SourceryKit",
+              "description": "Observability and governance for AI agent egress. Logs every outbound request and MCP handoff and verifies each against a source of truth with a zero-knowledge proof, blocking anything not on the trusted allow-list. Python SDK (source-available) with a hosted verification backend.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1222392614,
+                "language": "Python",
+                "last_commit": "2026-08-19T10:09:09Z",
+                "owner": "ProvablyAI",
+                "repo": "sourcerykit",
+                "stars": 18
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Lookspan",
+              "description": "Local-first observability for AI agents. One command () runs a dashboard with traces, a timeline/waterfall view, cost tracking, replay & LLM-as-judge, and datasets. MCP-native, with OpenAI/Anthropic drop-ins and an OpenTelemetry receiver — all data stays on your machine.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1252759143,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T07:00:13Z",
+                "owner": "JoniMartin27",
+                "repo": "lookspan",
+                "stars": 7
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Seerlens",
+              "description": "Local-first, .NET-first observability and evals for LLM apps. Live tracing, cost in dollars against a budget, CI-gateable evals, and agent/MCP tool-call scoring. Built on OpenTelemetry with .NET, Python and JS SDKs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1260595094,
+                "language": "C#",
+                "last_commit": "2026-06-23T17:42:23Z",
+                "owner": "eladser",
+                "repo": "seerlens",
+                "stars": 4
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Platforms"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "OpenLLMetry",
+              "description": "Open-source observability for LLM applications, based on OpenTelemetry.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 686364232,
+                "language": "Python",
+                "last_commit": "2026-08-10T08:49:01Z",
+                "owner": "traceloop",
+                "repo": "openllmetry",
+                "stars": 7385
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "MyScale Telemetry",
+              "description": "Tool designed to enhance the observability of LLM applications by capturing trace data from LangChain-based applications and storing it in MyScaleDB or ClickHouse.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 803602083,
+                "language": "Python",
+                "last_commit": "2025-01-02T08:49:58Z",
+                "owner": "myscale",
+                "repo": "myscale-telemetry",
+                "stars": 55
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "BrowserTrace",
+              "description": "Local-first trace viewer for AI browser-agent failures, capturing screenshots, URLs, actions, model I/O, status, errors, and public-safe HTML exports.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1221453647,
+                "language": "Python",
+                "last_commit": "2026-05-14T09:43:04Z",
+                "owner": "aaronlab",
+                "repo": "browsertrace",
+                "stars": 4
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Instrumentation & SDKs"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Manifest",
+              "description": "Open-source real-time cost observability for AI agents. Tracks tokens, costs, messages, and model usage. Self-hostable, privacy-focused, and OTLP-native.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 542185751,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T09:13:23Z",
+                "owner": "mnfst",
+                "repo": "manifest",
+                "stars": 7457
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "onWatch",
+              "description": "Open-source Go CLI that tracks AI API quota usage across 7 providers. Background daemon with SQLite storage, Material Design 3 web dashboard, and zero telemetry.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1151441959,
+                "language": "Go",
+                "last_commit": "2026-08-19T12:23:08Z",
+                "owner": "onllm-dev",
+                "repo": "onWatch",
+                "stars": 713
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "agenttrace",
+              "description": "TUI observability for AI coding agents. Tracks cost, tokens, tool failures, anomalies, health, and CI gates across Claude Code, Codex, Gemini CLI, Aider, and Cursor exports.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1226187070,
+                "language": "Rust",
+                "last_commit": "2026-08-17T01:11:50Z",
+                "owner": "luoyuctl",
+                "repo": "agenttrace",
+                "stars": 121
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ax",
+              "description": "Local telemetry for AI coding agents.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1232710515,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T07:27:52Z",
+                "owner": "Necmttn",
+                "repo": "ax",
+                "stars": 95
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "burn0",
+              "description": "Open-source Node.js cost observability with one import. Auto-detects and tracks per-request costs for 50+ services (LLMs, SaaS, databases) via HTTP interception. Sub-millisecond overhead, local-first with optional cloud dashboard.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1186206329,
+                "language": "TypeScript",
+                "last_commit": "2026-08-06T20:58:49Z",
+                "owner": "burn0-dev",
+                "repo": "burn0",
+                "stars": 43
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Preflight",
+              "description": "Local-first observability for AI coding assistants. Captures every tool call (reads, edits, commands, searches), tracks USD cost per session/day/week and per model, scores efficiency, and detects anti-patterns (re-reads, blind edits, stuck loops) on a live local dashboard. Offline by default, Apache-2.0; optional New Relic backend for team rollups and alerting. Works with Claude Code, Cursor, Windsurf, Copilot, Zed, Continue.dev, and Amazon Q.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1273370027,
+                "language": "TypeScript",
+                "last_commit": "2026-08-18T19:43:57Z",
+                "owner": "newrelic-experimental",
+                "repo": "preflight",
+                "stars": 40
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "whatbroke",
+              "description": "CLI that diffs an AI agent's behavior between two runs: dropped or added tool calls, changed arguments and outputs, cost and latency. Imports OTLP GenAI span exports, Langfuse and LangSmith dumps. npx-installable, MIT.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1308421534,
+                "language": "TypeScript",
+                "last_commit": "2026-08-06T06:19:19Z",
+                "owner": "arthi-arumugam-git",
+                "repo": "whatbroke",
+                "stars": 19
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Aether",
+              "description": "Local observability TUI for Claude Code and Codex. Tracks context, cost, tokens, duration, tools, compactions, agents, code changes, and per-request input attribution from provider-local session files.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1228245012,
+                "language": "Rust",
+                "last_commit": "2026-07-21T15:18:35Z",
+                "owner": "connectchiragg",
+                "repo": "aether",
+                "stars": 9
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "grafana-llmops-forge",
+              "description": "CLI that generates AI/LLM observability dashboards from an existing Grafana, covering FinOps by provider, agents/RAG, and EU AI Act governance. Zero-dependency.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1298382785,
+                "language": "Python",
+                "last_commit": "2026-07-23T13:45:17Z",
+                "owner": "alebgl77",
+                "repo": "grafana-llmops-forge",
+                "stars": 1
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Cost & Usage Tracking"
+        }
+      ],
       "title": "10. LLM & AI Observability"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Langfuse",
-          "description": "Open source LLM engineering platform for observability, metrics, evals, prompt management and datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T19:52:28Z",
-            "owner": "langfuse",
-            "repo": "langfuse",
-            "stars": 33349
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Opik",
-          "description": "Debug, evaluate, and monitor LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-19T00:49:37Z",
-            "owner": "comet-ml",
-            "repo": "opik",
-            "stars": 21456
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Arize Phoenix",
-          "description": "Open-source AI observability platform for tracing, evaluation, datasets, experiments, prompt management and playground. Built on OpenTelemetry with Python and TypeScript support.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T23:49:12Z",
-            "owner": "Arize-ai",
-            "repo": "phoenix",
-            "stars": 11099
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Helicone",
-          "description": "Open source LLM observability platform and AI Gateway. One line of code to monitor, evaluate, and experiment across 100+ providers.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-16T20:26:29Z",
-            "owner": "Helicone",
-            "repo": "helicone",
-            "stars": 6082
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Latitude",
-          "description": "Open-source LLM observability and evaluation platform. Traces, monitors, and evaluates AI agents in production, clusters failures into issues, and generates evals from real-world failures. Built on OpenTelemetry with OpenInference and OpenLLMetry support.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T16:33:00Z",
-            "owner": "latitude-dev",
-            "repo": "latitude-llm",
-            "stars": 4593
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Agenta",
-          "description": "Open-source LLMOps platform for prompt playground, prompt management, LLM evaluation, and observability.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T20:33:49Z",
-            "owner": "Agenta-AI",
-            "repo": "agenta",
-            "stars": 4490
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Pydantic Logfire",
-          "description": "AI observability platform for production LLM and agent systems. Built on OpenTelemetry with first-class Pydantic AI support.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T23:15:34Z",
-            "owner": "pydantic",
-            "repo": "logfire",
-            "stars": 4429
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Laminar",
-          "description": "Open-source observability and analytics platform purpose-built for AI agents. Built in Rust for performance.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T23:47:02Z",
-            "owner": "lmnr-ai",
-            "repo": "lmnr",
-            "stars": 3180
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "OpenLIT",
-          "description": "OTel-native observability and evals for LLMs and GPUs.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-17T10:35:57Z",
-            "owner": "openlit",
-            "repo": "openlit",
-            "stars": 2698
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Langtrace",
-          "description": "Open source OpenTelemetry-based observability for LLM applications.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2025-11-17T15:08:48Z",
-            "owner": "Scale3-Labs",
-            "repo": "langtrace",
-            "stars": 1228
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Heron",
-          "description": "Passive, SDK-free observability for LLM and agent traffic. Reconstructs agent turns and service topology from post-TLS HTTP on the wire — no SDK and no proxy in the request path. Decodes OpenAI/Anthropic/Gemini, folds multi-leg proxy hops, auto-classifies vLLM/SGLang/Ollama backends. Single static binary with embedded console, Apache-2.0.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-18T08:24:47Z",
-            "owner": "Netis",
-            "repo": "heron",
-            "stars": 85
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Nika",
-          "description": "Workflow engine for AI where observability is built into the runtime: every run emits a typed event stream and a hash-chained, tamper-evident trace ( · ), with static cost floors before the run and per-task cost rows after. Local-first, single Rust binary, AGPL.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-19T02:25:45Z",
-            "owner": "supernovae-st",
-            "repo": "nika",
-            "stars": 54
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "SourceryKit",
-          "description": "Observability and governance for AI agent egress. Logs every outbound request and MCP handoff and verifies each against a source of truth with a zero-knowledge proof, blocking anything not on the trusted allow-list. Python SDK (source-available) with a hosted verification backend.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T13:46:10Z",
-            "owner": "ProvablyAI",
-            "repo": "sourcerykit",
-            "stars": 18
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Lookspan",
-          "description": "Local-first observability for AI agents. One command () runs a dashboard with traces, a timeline/waterfall view, cost tracking, replay & LLM-as-judge, and datasets. MCP-native, with OpenAI/Anthropic drop-ins and an OpenTelemetry receiver — all data stays on your machine.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T06:59:14Z",
-            "owner": "JoniMartin27",
-            "repo": "lookspan",
-            "stars": 7
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Seerlens",
-          "description": "Local-first, .NET-first observability and evals for LLM apps. Live tracing, cost in dollars against a budget, CI-gateable evals, and agent/MCP tool-call scoring. Built on OpenTelemetry with .NET, Python and JS SDKs.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C#",
-            "last_commit": "2026-06-23T17:42:23Z",
-            "owner": "eladser",
-            "repo": "seerlens",
-            "stars": 4
-          }
-        }
-      ],
-      "title": "Platforms"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "OpenLLMetry",
-          "description": "Open-source observability for LLM applications, based on OpenTelemetry.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-10T08:49:01Z",
-            "owner": "traceloop",
-            "repo": "openllmetry",
-            "stars": 7382
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "MyScale Telemetry",
-          "description": "Tool designed to enhance the observability of LLM applications by capturing trace data from LangChain-based applications and storing it in MyScaleDB or ClickHouse.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-01-02T08:49:58Z",
-            "owner": "myscale",
-            "repo": "myscale-telemetry",
-            "stars": 55
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "BrowserTrace",
-          "description": "Local-first trace viewer for AI browser-agent failures, capturing screenshots, URLs, actions, model I/O, status, errors, and public-safe HTML exports.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-05-14T09:43:04Z",
-            "owner": "aaronlab",
-            "repo": "browsertrace",
-            "stars": 4
-          }
-        }
-      ],
-      "title": "Instrumentation & SDKs"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Manifest",
-          "description": "Open-source real-time cost observability for AI agents. Tracks tokens, costs, messages, and model usage. Self-hostable, privacy-focused, and OTLP-native.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T15:51:18Z",
-            "owner": "mnfst",
-            "repo": "manifest",
-            "stars": 7455
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "onWatch",
-          "description": "Open-source Go CLI that tracks AI API quota usage across 7 providers. Background daemon with SQLite storage, Material Design 3 web dashboard, and zero telemetry.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-07-31T16:51:58Z",
-            "owner": "onllm-dev",
-            "repo": "onWatch",
-            "stars": 713
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "agenttrace",
-          "description": "TUI observability for AI coding agents. Tracks cost, tokens, tool failures, anomalies, health, and CI gates across Claude Code, Codex, Gemini CLI, Aider, and Cursor exports.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-17T01:11:50Z",
-            "owner": "luoyuctl",
-            "repo": "agenttrace",
-            "stars": 120
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ax",
-          "description": "Local telemetry for AI coding agents.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-19T02:26:18Z",
-            "owner": "Necmttn",
-            "repo": "ax",
-            "stars": 95
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "burn0",
-          "description": "Open-source Node.js cost observability with one import. Auto-detects and tracks per-request costs for 50+ services (LLMs, SaaS, databases) via HTTP interception. Sub-millisecond overhead, local-first with optional cloud dashboard.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-06T20:58:49Z",
-            "owner": "burn0-dev",
-            "repo": "burn0",
-            "stars": 43
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Preflight",
-          "description": "Local-first observability for AI coding assistants. Captures every tool call (reads, edits, commands, searches), tracks USD cost per session/day/week and per model, scores efficiency, and detects anti-patterns (re-reads, blind edits, stuck loops) on a live local dashboard. Offline by default, Apache-2.0; optional New Relic backend for team rollups and alerting. Works with Claude Code, Cursor, Windsurf, Copilot, Zed, Continue.dev, and Amazon Q.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T19:43:57Z",
-            "owner": "newrelic-experimental",
-            "repo": "preflight",
-            "stars": 40
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "whatbroke",
-          "description": "CLI that diffs an AI agent's behavior between two runs: dropped or added tool calls, changed arguments and outputs, cost and latency. Imports OTLP GenAI span exports, Langfuse and LangSmith dumps. npx-installable, MIT.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-06T06:19:19Z",
-            "owner": "arthi-arumugam-git",
-            "repo": "whatbroke",
-            "stars": 19
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Aether",
-          "description": "Local observability TUI for Claude Code and Codex. Tracks context, cost, tokens, duration, tools, compactions, agents, code changes, and per-request input attribution from provider-local session files.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-07-21T15:18:35Z",
-            "owner": "connectchiragg",
-            "repo": "aether",
-            "stars": 9
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "grafana-llmops-forge",
-          "description": "CLI that generates AI/LLM observability dashboards from an existing Grafana, covering FinOps by provider, agents/RAG, and EU AI Act governance. Zero-dependency.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-07-23T13:45:17Z",
-            "owner": "alebgl77",
-            "repo": "grafana-llmops-forge",
-            "stars": 1
-          }
-        }
-      ],
-      "title": "Cost & Usage Tracking"
     },
     {
       "description": "As GPU workloads become central to AI/ML production systems, observability at the GPU level has emerged as a discipline of its own. Unlike traditional APM, GPU observability focuses on CUDA tracing, causal chain analysis linking host kernel events to GPU latency, and zero-config eBPF instrumentation for always-on production use.",
@@ -1444,11 +1850,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 94530674,
             "language": "C",
             "last_commit": "2026-05-06T06:41:23Z",
             "owner": "Syllo",
             "repo": "nvtop",
-            "stars": 10927
+            "stars": 10928
           }
         },
         {
@@ -1458,11 +1865,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 332736941,
             "language": "Python",
             "last_commit": "2026-07-27T05:01:07Z",
             "owner": "XuehaiPan",
             "repo": "nvitop",
-            "stars": 7111
+            "stars": 7113
           }
         },
         {
@@ -1472,8 +1880,9 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 395039200,
             "language": "Go",
-            "last_commit": "2026-07-25T02:39:06Z",
+            "last_commit": "2026-08-19T03:40:51Z",
             "owner": "NVIDIA",
             "repo": "dcgm-exporter",
             "stars": 1835
@@ -1486,11 +1895,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 375163159,
             "language": "Go",
-            "last_commit": "2026-08-18T21:27:54Z",
+            "last_commit": "2026-08-19T11:50:13Z",
             "owner": "utkuozdemir",
             "repo": "nvidia_gpu_exporter",
-            "stars": 1532
+            "stars": 1531
           }
         },
         {
@@ -1500,6 +1910,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1249045671,
             "language": "Python",
             "last_commit": "2026-08-18T13:06:20Z",
             "owner": "SikamikanikoBG",
@@ -1514,6 +1925,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1088011449,
             "language": "Python",
             "last_commit": "2026-08-18T19:54:51Z",
             "owner": "paralleliq",
@@ -1525,7 +1937,7 @@
       "title": "11. GPU Observability"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
           "node_type": "item",
@@ -1534,11 +1946,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 17253775,
             "language": "Go Template",
-            "last_commit": "2026-08-18T14:27:28Z",
+            "last_commit": "2026-08-19T10:30:41Z",
             "owner": "zabbix",
             "repo": "zabbix",
-            "stars": 6282
+            "stars": 6286
           }
         },
         {
@@ -1548,8 +1961,9 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 448599559,
             "language": "Go",
-            "last_commit": "2026-08-18T16:20:31Z",
+            "last_commit": "2026-08-19T08:56:07Z",
             "owner": "deepflowio",
             "repo": "deepflow",
             "stars": 4232
@@ -1562,11 +1976,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 501095512,
             "language": "Go",
-            "last_commit": "2026-08-19T00:16:46Z",
+            "last_commit": "2026-08-19T12:01:16Z",
             "owner": "odigos-io",
             "repo": "odigos",
-            "stars": 3675
+            "stars": 3677
           }
         },
         {
@@ -1576,18 +1991,169 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1272859739,
             "language": "Java",
             "last_commit": "2026-08-17T12:55:06Z",
             "owner": "databufflabs",
             "repo": "databuff",
-            "stars": 583
+            "stars": 589
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SigNoz",
+          "description": "Monitor your applications and troubleshoot problems in your deployed applications, an open-source alternative to DataDog, New Relic, etc.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 326404870,
+            "language": "TypeScript",
+            "last_commit": "2026-08-19T12:40:09Z",
+            "owner": "SigNoz",
+            "repo": "signoz",
+            "stars": 31876
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Pinpoint",
+          "description": "APM (Application Performance Management) tool for large-scale distributed systems written in Java / PHP/PYTHON.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 25459400,
+            "language": "Java",
+            "last_commit": "2026-08-19T08:20:07Z",
+            "owner": "pinpoint-apm",
+            "repo": "pinpoint",
+            "stars": 13864
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Falcon Plus",
+          "description": "An open-source and enterprise-level monitoring system.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 55850689,
+            "language": "Go",
+            "last_commit": "2024-04-24T09:15:56Z",
+            "owner": "open-falcon",
+            "repo": "falcon-plus",
+            "stars": 7236
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Hubble",
+          "description": "Network, Service & Security Observability for Kubernetes.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 222612062,
+            "language": "Makefile",
+            "last_commit": "2026-08-18T11:02:36Z",
+            "owner": "cilium",
+            "repo": "hubble",
+            "stars": 4299
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Datav",
+          "description": "A modern apm solution for enterprise, an open-source alternative to DataDog, New Relic, etc.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 105098649,
+            "language": "TypeScript",
+            "last_commit": "2025-03-04T08:46:43Z",
+            "owner": "origin-bi",
+            "repo": "deepops",
+            "stars": 3966
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Scouter",
+          "description": "Open source APM (Application Performance Management) tool.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 36840131,
+            "language": "Java",
+            "last_commit": "2026-03-01T23:36:55Z",
+            "owner": "scouter-project",
+            "repo": "scouter",
+            "stars": 2178
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Cloudprober",
+          "description": "An active monitoring software to detect failures before your customers do.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 93106035,
+            "language": "Go",
+            "last_commit": "2021-10-29T01:03:34Z",
+            "owner": "google",
+            "repo": "cloudprober",
+            "stars": 1395
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Soda Sql",
+          "description": "Data profiling, testing, and monitoring for SQL accessible data.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 472677283,
+            "language": "Python",
+            "last_commit": "2022-11-30T20:20:48Z",
+            "owner": "sodadata",
+            "repo": "soda-sql",
+            "stars": 62
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "rrweb",
+          "description": "Open-source session replay library that records the DOM and user interactions as a typed JSON event stream and replays them. Powers the session replay features of Sentry, PostHog, Amplitude, and Highlight.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 151843254,
+            "language": "TypeScript",
+            "last_commit": "2026-07-24T10:27:11Z",
+            "owner": "rrweb-io",
+            "repo": "rrweb",
+            "stars": 20052
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "App Health",
+          "description": "Privacy-first endpoint health for Node, Go, and OpenTelemetry services; projects only method, normalized route, status, duration, timestamp, and optional release into aggregate views.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1306418865,
+            "language": "TypeScript",
+            "last_commit": "2026-08-15T20:44:57Z",
+            "owner": "sass-maker",
+            "repo": "app-health",
+            "stars": 0
           }
         }
       ],
       "title": "12. Application Performance Monitoring Solutions (APM)"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
           "node_type": "item",
@@ -1596,6 +2162,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 73559008,
             "language": "Java",
             "last_commit": "2026-05-17T18:20:40Z",
             "owner": "spring-petclinic",
@@ -1610,6 +2177,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 481317492,
             "language": "Python",
             "last_commit": "2026-04-12T05:52:53Z",
             "owner": "blueswen",
@@ -1624,8 +2192,9 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 336243874,
             "language": "Jsonnet",
-            "last_commit": "2026-08-19T02:07:37Z",
+            "last_commit": "2026-08-19T11:07:43Z",
             "owner": "grafana",
             "repo": "tns",
             "stars": 241
@@ -1638,6 +2207,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 434125503,
             "language": "Shell",
             "last_commit": "2023-04-03T20:08:27Z",
             "owner": "adriannovegil",
@@ -1652,8 +2222,9 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1223590168,
             "language": "Go",
-            "last_commit": "2026-08-18T23:24:01Z",
+            "last_commit": "2026-08-19T12:10:26Z",
             "owner": "ChainBench",
             "repo": "OpenChainBench",
             "stars": 5
@@ -1666,6 +2237,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 420957936,
             "language": "JavaScript",
             "last_commit": "2026-04-15T15:28:27Z",
             "owner": "Olivr",
@@ -1680,6 +2252,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 420068097,
             "language": "Java",
             "last_commit": "2022-07-07T21:39:08Z",
             "owner": "adriannovegil",
@@ -1691,7 +2264,7 @@
       "title": "15. Examples and Sandboxes"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
           "node_type": "item",
@@ -1700,6 +2273,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 59476603,
             "language": "Go",
             "last_commit": "2025-02-25T14:07:35Z",
             "owner": "crazy-canux",
@@ -1714,6 +2288,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 87634891,
             "language": null,
             "last_commit": "2026-08-04T17:00:13Z",
             "owner": "Enapiuz",
@@ -1728,6 +2303,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 226196314,
             "language": null,
             "last_commit": "2026-07-20T08:17:04Z",
             "owner": "adriannovegil",
@@ -1742,6 +2318,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 246025322,
             "language": null,
             "last_commit": "2026-07-20T15:35:14Z",
             "owner": "adriannovegil",
@@ -1756,6 +2333,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 308580737,
             "language": null,
             "last_commit": "2026-07-20T15:15:09Z",
             "owner": "adriannovegil",
@@ -1765,21 +2343,12 @@
         }
       ],
       "title": "16. References"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "17. License"
-    },
-    {
-      "description": "Contributions welcome! Read the contribution guidelines first.\nThank you!",
-      "items": [],
-      "title": "18. Contributing"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T02:31:01.215Z",
+    "last_updated": "2026-08-19T12:42:26.532Z",
     "original_repository": "adriannovegil/awesome-observability",
+    "original_repository_id": 200418696,
     "original_repository_sha": "2a46e8c3f69d16843454b3250eea81690201c5fb",
     "enhanced_repository": "enhansome/enhansome-observability",
     "enhanced_repository_description": null,
