@@ -32,7 +32,7 @@
                 "last_commit": "2024-07-08T11:15:48Z",
                 "owner": "bcicen",
                 "repo": "ctop",
-                "stars": 17824
+                "stars": 17825
               }
             },
             {
@@ -343,10 +343,10 @@
                 "archived": false,
                 "id": 764670636,
                 "language": "Go",
-                "last_commit": "2026-08-27T09:16:45Z",
+                "last_commit": "2026-08-27T11:15:14Z",
                 "owner": "grafana",
                 "repo": "alloy",
-                "stars": 3475
+                "stars": 3476
               }
             }
           ],
@@ -775,7 +775,7 @@
                 "last_commit": "2026-08-27T10:24:26Z",
                 "owner": "grafana",
                 "repo": "loki",
-                "stars": 28792
+                "stars": 28793
               }
             },
             {
@@ -869,7 +869,7 @@
                 "archived": false,
                 "id": 1200775282,
                 "language": "Open Policy Agent",
-                "last_commit": "2026-08-24T20:21:42Z",
+                "last_commit": "2026-08-27T11:28:49Z",
                 "owner": "starkross",
                 "repo": "augur",
                 "stars": 63
@@ -986,7 +986,7 @@
                 "archived": false,
                 "id": 67793333,
                 "language": "Go",
-                "last_commit": "2026-08-27T02:04:24Z",
+                "last_commit": "2026-08-27T11:15:49Z",
                 "owner": "cortexproject",
                 "repo": "cortex",
                 "stars": 5856
@@ -1162,7 +1162,7 @@
                 "archived": false,
                 "id": 7833168,
                 "language": "TypeScript",
-                "last_commit": "2026-08-27T11:03:42Z",
+                "last_commit": "2026-08-27T11:52:07Z",
                 "owner": "elastic",
                 "repo": "kibana",
                 "stars": 21265
@@ -1381,7 +1381,7 @@
                 "last_commit": "2026-08-26T19:30:43Z",
                 "owner": "bluewave-labs",
                 "repo": "Checkmate",
-                "stars": 10757
+                "stars": 10756
               }
             }
           ],
@@ -1680,10 +1680,10 @@
                 "archived": false,
                 "id": 642497346,
                 "language": "TypeScript",
-                "last_commit": "2026-08-27T11:10:00Z",
+                "last_commit": "2026-08-27T11:52:35Z",
                 "owner": "langfuse",
                 "repo": "langfuse",
-                "stars": 33797
+                "stars": 33801
               }
             },
             {
@@ -1695,7 +1695,7 @@
                 "archived": false,
                 "id": 638951438,
                 "language": "Python",
-                "last_commit": "2026-08-27T11:08:08Z",
+                "last_commit": "2026-08-27T11:53:09Z",
                 "owner": "comet-ml",
                 "repo": "opik",
                 "stars": 21632
@@ -1713,7 +1713,7 @@
                 "last_commit": "2026-08-27T08:27:36Z",
                 "owner": "Arize-ai",
                 "repo": "phoenix",
-                "stars": 11210
+                "stars": 11212
               }
             },
             {
@@ -1740,7 +1740,7 @@
                 "archived": false,
                 "id": 821360765,
                 "language": "TypeScript",
-                "last_commit": "2026-08-27T09:48:22Z",
+                "last_commit": "2026-08-27T11:11:57Z",
                 "owner": "latitude-dev",
                 "repo": "latitude-llm",
                 "stars": 4603
@@ -1755,7 +1755,7 @@
                 "archived": false,
                 "id": 632871628,
                 "language": "TypeScript",
-                "last_commit": "2026-08-27T11:07:47Z",
+                "last_commit": "2026-08-27T11:51:53Z",
                 "owner": "Agenta-AI",
                 "repo": "agenta",
                 "stars": 4557
@@ -1770,7 +1770,7 @@
                 "archived": false,
                 "id": 790713784,
                 "language": "Python",
-                "last_commit": "2026-08-27T10:49:54Z",
+                "last_commit": "2026-08-27T11:50:22Z",
                 "owner": "pydantic",
                 "repo": "logfire",
                 "stars": 4442
@@ -1788,7 +1788,7 @@
                 "last_commit": "2026-08-25T18:19:18Z",
                 "owner": "lmnr-ai",
                 "repo": "lmnr",
-                "stars": 3199
+                "stars": 3200
               }
             },
             {
@@ -2158,7 +2158,7 @@
             "last_commit": "2026-08-27T04:48:06Z",
             "owner": "utkuozdemir",
             "repo": "nvidia_gpu_exporter",
-            "stars": 1542
+            "stars": 1543
           }
         },
         {
@@ -2206,7 +2206,7 @@
             "archived": false,
             "id": 17253775,
             "language": "Go Template",
-            "last_commit": "2026-08-27T09:30:44Z",
+            "last_commit": "2026-08-27T11:30:42Z",
             "owner": "zabbix",
             "repo": "zabbix",
             "stars": 6315
@@ -2221,7 +2221,7 @@
             "archived": false,
             "id": 448599559,
             "language": "Go",
-            "last_commit": "2026-08-27T09:48:27Z",
+            "last_commit": "2026-08-27T11:48:48Z",
             "owner": "deepflowio",
             "repo": "deepflow",
             "stars": 4244
@@ -2266,10 +2266,10 @@
             "archived": false,
             "id": 326404870,
             "language": "TypeScript",
-            "last_commit": "2026-08-27T10:47:23Z",
+            "last_commit": "2026-08-27T11:22:35Z",
             "owner": "SigNoz",
             "repo": "signoz",
-            "stars": 31937
+            "stars": 31938
           }
         },
         {
@@ -2482,7 +2482,7 @@
             "archived": false,
             "id": 1223590168,
             "language": "Go",
-            "last_commit": "2026-08-27T11:09:15Z",
+            "last_commit": "2026-08-27T11:47:18Z",
             "owner": "ChainBench",
             "repo": "OpenChainBench",
             "stars": 6
@@ -2604,7 +2604,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T11:10:48.542Z",
+    "last_updated": "2026-08-27T11:53:48.758Z",
     "original_repository_info": {
       "archived": false,
       "id": 200418696,
