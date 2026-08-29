@@ -12,12 +12,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Analyzes resource usage and performance characteristics of running containers.",
+                "homepage": null,
                 "id": 20653934,
                 "language": "Go",
+                "license": "NOASSERTION",
                 "last_commit": "2026-07-20T21:23:51Z",
+                "open_issues": 62,
                 "owner": "google",
                 "repo": "cadvisor",
-                "stars": 19382
+                "stars": 19385,
+                "topics": []
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -28,12 +33,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Top-like interface for container metrics",
+                "homepage": "https://ctop.sh",
                 "id": 77419377,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2024-07-08T11:15:48Z",
+                "open_issues": 120,
                 "owner": "bcicen",
                 "repo": "ctop",
-                "stars": 17828
+                "stars": 17828,
+                "topics": [
+                  "command-line",
+                  "commandline",
+                  "containers",
+                  "docker",
+                  "monitoring",
+                  "runc",
+                  "top"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -44,12 +62,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Exporter for machine metrics",
+                "homepage": "https://prometheus.io/",
                 "id": 9524057,
                 "language": "Go",
-                "last_commit": "2026-08-27T07:33:04Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T16:44:41Z",
+                "open_issues": 310,
                 "owner": "prometheus",
                 "repo": "node_exporter",
-                "stars": 13732
+                "stars": 13739,
+                "topics": [
+                  "host-metrics",
+                  "machine-metrics",
+                  "metrics",
+                  "node-metrics",
+                  "procfs",
+                  "prometheus",
+                  "prometheus-exporter",
+                  "system-information",
+                  "system-metrics"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -60,12 +93,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A Kubernetes operator for running synthetic checks as pods. Works great with Prometheus!",
+                "homepage": "https://kuberhealthy.github.io/kuberhealthy/",
                 "id": 137922416,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T02:47:35Z",
+                "open_issues": 6,
                 "owner": "kuberhealthy",
                 "repo": "kuberhealthy",
-                "stars": 2264
+                "stars": 2264,
+                "topics": [
+                  "cicd",
+                  "continuous-delivery",
+                  "continuous-integration",
+                  "continuous-testing",
+                  "health",
+                  "kubernetes",
+                  "monitoring",
+                  "operator",
+                  "synthetic"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -76,12 +124,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Dev Tools for the Serverless World - Issues, PRs and ⭐️welcome!",
+                "homepage": "https://aleios-cloud.github.io/sls-dev-tools/",
                 "id": 203430138,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2023-04-25T10:00:58Z",
+                "open_issues": 62,
                 "owner": "aleios-cloud",
                 "repo": "sls-dev-tools",
-                "stars": 871
+                "stars": 871,
+                "topics": [
+                  "aws-lambda",
+                  "cli",
+                  "debug",
+                  "eventbridge",
+                  "metrics",
+                  "observability",
+                  "serverless"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -92,12 +153,23 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "Data first monitoring agent using (e)BPF, built on RedBPF",
+                "homepage": null,
                 "id": 130035428,
                 "language": "Rust",
+                "license": "GPL-3.0",
                 "last_commit": "2023-04-13T17:13:28Z",
+                "open_issues": 17,
                 "owner": "foniod",
                 "repo": "foniod",
-                "stars": 408
+                "stars": 408,
+                "topics": [
+                  "agent",
+                  "ebpf",
+                  "monitoring",
+                  "rust",
+                  "statsd-client"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -108,12 +180,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "SSL Certificate Expiry Monitor - Monitor SSL certificates and get alerts before they expire",
+                "homepage": null,
                 "id": 1160656833,
                 "language": "TypeScript",
+                "license": null,
                 "last_commit": "2026-02-18T16:53:51Z",
+                "open_issues": 0,
                 "owner": "brancogao",
                 "repo": "ssl-certificate-monitor",
-                "stars": 15
+                "stars": 15,
+                "topics": []
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -124,12 +201,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Global DNS Propagation Checker - Check DNS propagation across worldwide servers in real-time",
+                "homepage": null,
                 "id": 1160617959,
                 "language": "TypeScript",
+                "license": null,
                 "last_commit": "2026-02-18T06:51:59Z",
+                "open_issues": 0,
                 "owner": "brancogao",
                 "repo": "dns-propagation-checker",
-                "stars": 1
+                "stars": 1,
+                "topics": []
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -140,12 +222,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": ":tropical_fish: Beats - Lightweight shippers for Elasticsearch & Logstash",
+                "homepage": "https://www.elastic.co/products/beats",
                 "id": 16554739,
                 "language": "Go",
-                "last_commit": "2026-08-28T11:23:09Z",
+                "license": "NOASSERTION",
+                "last_commit": "2026-08-28T19:14:14Z",
+                "open_issues": 1051,
                 "owner": "elastic",
                 "repo": "beats",
-                "stars": 12640
+                "stars": 12640,
+                "topics": [
+                  "filebeat",
+                  "heartbeat",
+                  "metricbeat",
+                  "packetbeat",
+                  "winlogbeat"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -156,12 +249,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Data collection framework for OpenTSDB",
+                "homepage": "http://opentsdb.net",
                 "id": 1189586,
                 "language": "Python",
+                "license": "LGPL-3.0",
                 "last_commit": "2024-06-10T16:45:33Z",
+                "open_issues": 25,
                 "owner": "OpenTSDB",
                 "repo": "tcollector",
-                "stars": 510
+                "stars": 510,
+                "topics": []
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -172,12 +270,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Add-on agent to generate and expose cluster-level metrics.",
+                "homepage": "https://kubernetes.io/docs/concepts/cluster-administration/kube-state-metrics/",
                 "id": 58184885,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-23T19:07:25Z",
+                "open_issues": 107,
                 "owner": "kubernetes",
                 "repo": "kube-state-metrics",
-                "stars": 6187
+                "stars": 6187,
+                "topics": [
+                  "kubernetes",
+                  "kubernetes-exporter",
+                  "kubernetes-monitoring",
+                  "metrics",
+                  "monitoring",
+                  "observability",
+                  "prometheus",
+                  "prometheus-exporter"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -188,12 +300,30 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🚀 Realtime Monitoring solution for Node.js/Express.js apps, inspired by status.github.com, sponsored by https://dynobase.dev",
+                "homepage": "https://dynobase.dev/",
                 "id": 64599973,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2026-02-16T00:13:30Z",
+                "open_issues": 68,
                 "owner": "RafalWilinski",
                 "repo": "express-status-monitor",
-                "stars": 3615
+                "stars": 3615,
+                "topics": [
+                  "express",
+                  "expressjs",
+                  "health-check",
+                  "health-checks",
+                  "javascript",
+                  "middleware",
+                  "monitoring",
+                  "monitoring-page",
+                  "node",
+                  "nodejs",
+                  "observability",
+                  "socket"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -204,12 +334,17 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "Vector is an on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer’s browser.",
+                "homepage": "http://getvector.io/",
                 "id": 31442355,
                 "language": "JavaScript",
+                "license": "Apache-2.0",
                 "last_commit": "2021-08-10T21:54:14Z",
+                "open_issues": 57,
                 "owner": "Netflix",
                 "repo": "vector",
-                "stars": 3571
+                "stars": 3571,
+                "topics": []
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -220,12 +355,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "High performance Java APM. Powered by ASM. Try it. Test it. If you feel its better, use it.",
+                "homepage": null,
                 "id": 124743561,
                 "language": "Java",
+                "license": "BSD-3-Clause",
                 "last_commit": "2026-07-31T07:09:20Z",
+                "open_issues": 5,
                 "owner": "LinShunKang",
                 "repo": "MyPerf4J",
-                "stars": 3559
+                "stars": 3560,
+                "topics": [
+                  "agent",
+                  "apm",
+                  "bytecode",
+                  "diagnosis",
+                  "java-agent",
+                  "jvm-monitor",
+                  "metrics",
+                  "microservices",
+                  "monitor",
+                  "monitoring",
+                  "monitoring-tool",
+                  "observability",
+                  "performance",
+                  "performance-analysis",
+                  "performance-metrics",
+                  "performance-monitoring",
+                  "performance-tuning",
+                  "performance-visualization",
+                  "profiler",
+                  "profiling"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -236,12 +397,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Real-time network diagnostics in your terminal. One command, zero config, instant visibility.",
+                "homepage": "https://netwatchlabs.com",
                 "id": 1158138526,
                 "language": "Rust",
+                "license": "MIT",
                 "last_commit": "2026-08-15T23:47:57Z",
+                "open_issues": 2,
                 "owner": "matthart1983",
                 "repo": "netwatch",
-                "stars": 2596
+                "stars": 2606,
+                "topics": []
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -252,12 +418,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The .NET/.NET Core instrument agent for Apache SkyWalking",
+                "homepage": "https://skyapm.github.io/SkyAPM-dotnet/",
                 "id": 120469298,
                 "language": "C#",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-01T23:50:20Z",
+                "open_issues": 3,
                 "owner": "SkyAPM",
                 "repo": "SkyAPM-dotnet",
-                "stars": 1658
+                "stars": 1658,
+                "topics": [
+                  "apm",
+                  "csharp",
+                  "distributed-tracing",
+                  "dotnet",
+                  "metric",
+                  "observability",
+                  "skywalking"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -268,12 +447,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "pktvisor is a dynamic network observability agent that smartly analyzes network traffic and generates opentelemetry metrics",
+                "homepage": "https://orb.community",
                 "id": 241899022,
                 "language": "C++",
+                "license": "MPL-2.0",
                 "last_commit": "2026-08-26T17:43:47Z",
+                "open_issues": 2,
                 "owner": "netboxlabs",
                 "repo": "pktvisor",
-                "stars": 523
+                "stars": 523,
+                "topics": [
+                  "agent",
+                  "api-first",
+                  "collector-agent",
+                  "dnstap",
+                  "grafana",
+                  "monitoring",
+                  "observability",
+                  "packet-capture",
+                  "pcap",
+                  "prometheus",
+                  "stream-processors"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -284,12 +480,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "inspectIT Ocelot - Java agent for collecting application performance, tracing and behavior data",
+                "homepage": "http://www.inspectit.rocks/",
                 "id": 160148747,
                 "language": "Java",
+                "license": "Apache-2.0",
                 "last_commit": "2026-02-11T11:53:00Z",
+                "open_issues": 80,
                 "owner": "inspectIT",
                 "repo": "inspectit-ocelot",
-                "stars": 221
+                "stars": 221,
+                "topics": [
+                  "agent",
+                  "apm",
+                  "application-monitoring",
+                  "configuration-server",
+                  "java-agent",
+                  "jvm",
+                  "monitoring",
+                  "observability",
+                  "openapm",
+                  "opencensus",
+                  "opentelemetry"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -300,12 +513,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Real-time Prometheus exporter for Duplicacy backups with live speed, progress, and completion metrics",
+                "homepage": null,
                 "id": 1151587385,
                 "language": "Python",
+                "license": "GPL-3.0",
                 "last_commit": "2026-08-01T16:58:42Z",
+                "open_issues": 0,
                 "owner": "GeiserX",
                 "repo": "duplicacy-exporter",
-                "stars": 6
+                "stars": 6,
+                "topics": [
+                  "alerting",
+                  "backup",
+                  "dashboard",
+                  "data-protection",
+                  "devops",
+                  "docker",
+                  "docker-compose",
+                  "duplicacy",
+                  "exporter",
+                  "grafana",
+                  "homelab",
+                  "metrics",
+                  "monitoring",
+                  "observability",
+                  "prometheus",
+                  "prometheus-exporter",
+                  "python",
+                  "self-hosted",
+                  "time-series",
+                  "webhook"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -323,12 +562,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "inspectIT Ocelot - Java agent for collecting application performance, tracing and behavior data",
+                "homepage": "http://www.inspectit.rocks/",
                 "id": 160148747,
                 "language": "Java",
+                "license": "Apache-2.0",
                 "last_commit": "2026-02-11T11:53:00Z",
+                "open_issues": 80,
                 "owner": "inspectIT",
                 "repo": "inspectit-ocelot",
-                "stars": 221
+                "stars": 221,
+                "topics": [
+                  "agent",
+                  "apm",
+                  "application-monitoring",
+                  "configuration-server",
+                  "java-agent",
+                  "jvm",
+                  "monitoring",
+                  "observability",
+                  "openapm",
+                  "opencensus",
+                  "opentelemetry"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -346,12 +602,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": ":tropical_fish: Beats - Lightweight shippers for Elasticsearch & Logstash",
+                "homepage": "https://www.elastic.co/products/beats",
                 "id": 16554739,
                 "language": "Go",
-                "last_commit": "2026-08-28T11:23:09Z",
+                "license": "NOASSERTION",
+                "last_commit": "2026-08-28T19:14:14Z",
+                "open_issues": 1051,
                 "owner": "elastic",
                 "repo": "beats",
-                "stars": 12640
+                "stars": 12640,
+                "topics": [
+                  "filebeat",
+                  "heartbeat",
+                  "metricbeat",
+                  "packetbeat",
+                  "winlogbeat"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -362,12 +629,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "OpenTelemetry Collector distribution with programmable pipelines",
+                "homepage": "https://grafana.com/oss/alloy",
                 "id": 764670636,
                 "language": "Go",
-                "last_commit": "2026-08-28T11:35:03Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T22:35:10Z",
+                "open_issues": 1207,
                 "owner": "grafana",
                 "repo": "alloy",
-                "stars": 3479
+                "stars": 3482,
+                "topics": [
+                  "collector",
+                  "grafana",
+                  "loki",
+                  "monitoring",
+                  "observability",
+                  "opentelemetry",
+                  "opentelemetry-collector",
+                  "prometheus"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -385,12 +666,23 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "Export Kubernetes events to multiple destinations with routing and filtering",
+                "homepage": null,
                 "id": 219929887,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2022-08-31T11:33:33Z",
+                "open_issues": 79,
                 "owner": "opsgenie",
                 "repo": "kubernetes-event-exporter",
-                "stars": 1048
+                "stars": 1048,
+                "topics": [
+                  "alerting",
+                  "events",
+                  "exporting",
+                  "kubernetes",
+                  "observability"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -401,12 +693,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "KubeEye aims to find various problems on Kubernetes, such as application misconfiguration, unhealthy cluster components and node problems.",
+                "homepage": "https://kubesphere.io",
                 "id": 310904702,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2025-06-25T08:42:20Z",
+                "open_issues": 31,
                 "owner": "kubesphere",
                 "repo": "kubeeye",
-                "stars": 850
+                "stars": 850,
+                "topics": [
+                  "cluster-analysis",
+                  "k8s",
+                  "kubeeye",
+                  "kubernetes",
+                  "observability"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -417,12 +720,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Turning Kubernetes Events into spans",
+                "homepage": null,
                 "id": 306648519,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2023-06-24T11:56:27Z",
+                "open_issues": 21,
                 "owner": "weaveworks-experiments",
                 "repo": "kspan",
-                "stars": 806
+                "stars": 806,
+                "topics": [
+                  "distributed-tracing",
+                  "kubernetes",
+                  "observability"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -444,12 +756,29 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Write scalable load tests in plain Python 🚗💨",
+            "homepage": "https://locust.cloud",
             "id": 1377867,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-08-26T17:46:29Z",
+            "open_issues": 3,
             "owner": "locustio",
             "repo": "locust",
-            "stars": 28112
+            "stars": 28112,
+            "topics": [
+              "benchmarking",
+              "http",
+              "load-generator",
+              "load-test",
+              "load-testing",
+              "load-tests",
+              "locust",
+              "performance",
+              "performance-testing",
+              "python",
+              "socketio"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -460,12 +789,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "HTTP load testing tool and library. It's over 9000!",
+            "homepage": "http://godoc.org/github.com/tsenart/vegeta/lib",
             "id": 12080551,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-02-16T14:07:07Z",
+            "open_issues": 122,
             "owner": "tsenart",
             "repo": "vegeta",
-            "stars": 25170
+            "stars": 25170,
+            "topics": [
+              "benchmarking",
+              "go",
+              "http",
+              "load-testing"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -476,12 +815,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data. It can be used to increase confidence in code deployments, configuration changes and infrastructure changes.",
+            "homepage": "https://goreplay.org",
             "id": 10379607,
             "language": "Go",
+            "license": "NOASSERTION",
             "last_commit": "2026-01-27T15:26:22Z",
+            "open_issues": 341,
             "owner": "probelabs",
             "repo": "goreplay",
-            "stars": 19318
+            "stars": 19319,
+            "topics": [
+              "devops",
+              "go",
+              "qa",
+              "testing",
+              "testing-tools"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -492,12 +842,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Simple gRPC benchmarking and load testing tool",
+            "homepage": "https://ghz.sh",
             "id": 125127188,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-01T03:42:55Z",
+            "open_issues": 101,
             "owner": "bojand",
             "repo": "ghz",
-            "stars": 3349
+            "stars": 3349,
+            "topics": [
+              "grpc",
+              "hacktoberfest"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -508,12 +866,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Load and performance benchmark tool",
+            "homepage": null,
             "id": 5150693,
             "language": "Python",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-19T13:21:12Z",
+            "open_issues": 84,
             "owner": "yandex",
             "repo": "yandex-tank",
-            "stars": 2596
+            "stars": 2597,
+            "topics": [
+              "framework",
+              "load-testing",
+              "performance",
+              "performance-test",
+              "python"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -524,12 +893,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Automation-friendly framework for Continuous Testing by",
+            "homepage": "http://gettaurus.org",
             "id": 30940272,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T12:07:58Z",
+            "open_issues": 40,
             "owner": "Blazemeter",
             "repo": "taurus",
-            "stars": 2113
+            "stars": 2113,
+            "topics": [
+              "gatling",
+              "jenkins",
+              "jmeter",
+              "load-testing",
+              "performance",
+              "python",
+              "selenium",
+              "titans"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -540,12 +923,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "An easy-to-use library for creating load testing applications",
+            "homepage": null,
             "id": 22936695,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2024-04-19T12:28:22Z",
+            "open_issues": 6,
             "owner": "pinterest",
             "repo": "bender",
-            "stars": 662
+            "stars": 662,
+            "topics": [
+              "dns",
+              "http",
+              "load-testing",
+              "thrift"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -556,12 +949,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A load generator in Go language",
+            "homepage": null,
             "id": 45982181,
             "language": "Go",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-18T14:06:33Z",
+            "open_issues": 30,
             "owner": "yandex",
             "repo": "pandora",
-            "stars": 456
+            "stars": 456,
+            "topics": []
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -572,12 +970,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "I/O engine with some modules",
+            "homepage": null,
             "id": 5492154,
             "language": "C",
+            "license": "LGPL-2.1",
             "last_commit": "2020-02-04T15:32:14Z",
+            "open_issues": 4,
             "owner": "yandex-load",
             "repo": "phantom",
-            "stars": 72
+            "stars": 72,
+            "topics": []
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -588,12 +991,36 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Realistic synthetic events for testing, demos, and pipelines — streamed live or generated in bulk",
+            "homepage": "https://eventum.run",
             "id": 714666245,
             "language": "Python",
-            "last_commit": "2026-08-28T00:49:57Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T02:19:50Z",
+            "open_issues": 4,
             "owner": "eventum-generator",
             "repo": "eventum",
-            "stars": 63
+            "stars": 63,
+            "topics": [
+              "clickhouse",
+              "data-engineering",
+              "data-generation",
+              "devops",
+              "elasticsearch",
+              "fake-data",
+              "load-testing",
+              "log-generator",
+              "logs",
+              "mock-data",
+              "observability",
+              "opensearch",
+              "python",
+              "siem",
+              "sre",
+              "synthetic-data",
+              "test-data",
+              "time-series"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -604,12 +1031,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "a modular tool and framework for load generation that supports HTTP/2",
+            "homepage": null,
             "id": 39888422,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2017-11-24T12:26:51Z",
+            "open_issues": 0,
             "owner": "yandex-load",
             "repo": "bfg",
-            "stars": 22
+            "stars": 22,
+            "topics": [
+              "generator",
+              "load-testing",
+              "python3",
+              "scenarios",
+              "yandex-tank"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -620,12 +1058,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Son of Vegeta, with more skills (mainly gRPC support)",
+            "homepage": null,
             "id": 126188584,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2020-11-21T11:20:51Z",
+            "open_issues": 0,
             "owner": "straightdave",
             "repo": "trunks",
-            "stars": 17
+            "stars": 17,
+            "topics": [
+              "grpc",
+              "stress-testing"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         }
@@ -642,12 +1088,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Apache RocketMQ is a cloud native messaging and streaming platform, making it simple to build event-driven applications.",
+            "homepage": "https://rocketmq.apache.org/",
             "id": 75164823,
             "language": "Java",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-26T07:12:47Z",
+            "open_issues": 576,
             "owner": "apache",
             "repo": "rocketmq",
-            "stars": 22571
+            "stars": 22571,
+            "topics": [
+              "cloud-native",
+              "eventing",
+              "hacktoberfest",
+              "java",
+              "messaging",
+              "rocketmq",
+              "streaming"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -658,12 +1117,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Efficient reliable UDP unicast, UDP multicast, and IPC message transport",
+            "homepage": "https://aeron.io",
             "id": 16621659,
             "language": "Java",
-            "last_commit": "2026-08-27T14:33:57Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-28T15:56:29Z",
+            "open_issues": 26,
             "owner": "aeron-io",
             "repo": "aeron",
-            "stars": 8820
+            "stars": 8824,
+            "topics": [
+              "c",
+              "c-plus-plus",
+              "ipc",
+              "java",
+              "messaging",
+              "multicast-streams"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -674,12 +1145,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Disque is a distributed message broker",
+            "homepage": null,
             "id": 34676773,
             "language": "C",
+            "license": "BSD-3-Clause",
             "last_commit": "2021-03-17T14:10:45Z",
+            "open_issues": 59,
             "owner": "antirez",
             "repo": "disque",
-            "stars": 8074
+            "stars": 8074,
+            "topics": []
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -690,12 +1166,37 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A distributed MQTT message broker based on Erlang/OTP. Built for high quality & Industrial use cases. The VerneMQ mission is active & the project maintained. Thank you for your support!",
+            "homepage": "https://vernemq.com",
             "id": 36350782,
             "language": "Erlang",
-            "last_commit": "2026-08-27T10:37:15Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-28T20:51:43Z",
+            "open_issues": 164,
             "owner": "vernemq",
             "repo": "vernemq",
-            "stars": 3625
+            "stars": 3625,
+            "topics": [
+              "broker",
+              "distributed",
+              "erlang",
+              "industrial-automation",
+              "industrial-communication",
+              "industrial-iot",
+              "industry-40",
+              "iot",
+              "iot-middleware",
+              "m2m",
+              "manufacturing",
+              "message-queue",
+              "messaging",
+              "mqtt",
+              "pubsub",
+              "scalable",
+              "vernemq",
+              "vernemq-documentation",
+              "vernemq-users"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -706,12 +1207,27 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A distributed, tag-based pub-sub service for modern web applications and container-driven cloud.",
+            "homepage": null,
             "id": 45631123,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2023-09-27T12:52:08Z",
+            "open_issues": 6,
             "owner": "nanopack",
             "repo": "mist",
-            "stars": 662
+            "stars": 662,
+            "topics": [
+              "developer-tools",
+              "devtools",
+              "golang",
+              "messaging",
+              "nanobox",
+              "nanopack",
+              "pub-sub",
+              "tcp-client",
+              "websocket-client"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -722,12 +1238,17 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "The pub/sub library for node backed by Redis, MongoDB, AMQP (RabbitMQ), ZeroMQ, MQTT (Mosquitto) or just plain node!",
+            "homepage": "http://mcollina.github.com/ascoltatori",
             "id": 6294239,
             "language": "JavaScript",
+            "license": null,
             "last_commit": "2019-11-13T13:09:50Z",
+            "open_issues": 28,
             "owner": "moscajs",
             "repo": "ascoltatori",
-            "stars": 520
+            "stars": 520,
+            "topics": []
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -738,12 +1259,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The ZeroMQ Enterprise Messaging Broker",
+            "homepage": null,
             "id": 24999157,
             "language": "C",
+            "license": "MPL-2.0",
             "last_commit": "2025-06-25T00:12:47Z",
+            "open_issues": 28,
             "owner": "zeromq",
             "repo": "malamute",
-            "stars": 334
+            "stars": 334,
+            "topics": []
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -754,12 +1280,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Fast and lightweight log transport and processing.",
+            "homepage": null,
             "id": 277620818,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2025-11-20T02:42:27Z",
+            "open_issues": 39,
             "owner": "observIQ",
             "repo": "stanza",
-            "stars": 189
+            "stars": 189,
+            "topics": [
+              "golang",
+              "log-parsing",
+              "logging",
+              "observability",
+              "telemetry"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         }
@@ -778,12 +1315,35 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+                "homepage": "https://influxdata.com/telegraf",
                 "id": 33258973,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-08-26T18:55:34Z",
+                "open_issues": 427,
                 "owner": "influxdata",
                 "repo": "telegraf",
-                "stars": 17776
+                "stars": 17776,
+                "topics": [
+                  "golang",
+                  "hacktoberfest",
+                  "influxdb",
+                  "json",
+                  "kafka",
+                  "logs",
+                  "metrics",
+                  "modbus",
+                  "monitoring",
+                  "mqtt",
+                  "opcua",
+                  "t",
+                  "telegraf",
+                  "telemetry-collection",
+                  "time-series",
+                  "windows-eventlog",
+                  "xpath"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -794,12 +1354,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Daemon for easy but powerful stats aggregation",
+                "homepage": null,
                 "id": 1207300,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2025-05-20T07:22:42Z",
+                "open_issues": 90,
                 "owner": "statsd",
                 "repo": "statsd",
-                "stars": 18076
+                "stars": 18076,
+                "topics": [
+                  "graphite",
+                  "javascript",
+                  "metrics",
+                  "nodejs",
+                  "statsd"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -817,12 +1388,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Like Prometheus, but for logs.",
+                "homepage": "https://grafana.com/oss/loki",
                 "id": 129717717,
                 "language": "Go",
-                "last_commit": "2026-08-28T12:20:50Z",
+                "license": "AGPL-3.0",
+                "last_commit": "2026-08-29T03:25:58Z",
+                "open_issues": 1729,
                 "owner": "grafana",
                 "repo": "loki",
-                "stars": 28798
+                "stars": 28799,
+                "topics": [
+                  "cloudnative",
+                  "grafana",
+                  "hacktoberfest",
+                  "logging",
+                  "loki",
+                  "prometheus"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -833,12 +1416,32 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Realtime log viewer with web UI, tail -f for logs with a web interface browser.",
+                "homepage": "https://logdy.dev",
                 "id": 747929369,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2025-08-25T14:43:56Z",
+                "open_issues": 36,
                 "owner": "logdyhq",
                 "repo": "logdy-core",
-                "stars": 2283
+                "stars": 2284,
+                "topics": [
+                  "developer-experience",
+                  "developer-productivity",
+                  "golang-logger",
+                  "log",
+                  "log-viewer",
+                  "logger",
+                  "logging",
+                  "logging-library",
+                  "logging-server",
+                  "logs",
+                  "logs-view",
+                  "logviewer",
+                  "self-hosted",
+                  "selfhosted"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -849,12 +1452,32 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "An extensible Java library for HTTP request and response logging",
+                "homepage": null,
                 "id": 42457394,
                 "language": "Java",
-                "last_commit": "2026-08-25T04:03:08Z",
+                "license": "MIT",
+                "last_commit": "2026-08-28T16:03:09Z",
+                "open_issues": 32,
                 "owner": "zalando",
                 "repo": "logbook",
-                "stars": 2061
+                "stars": 2060,
+                "topics": [
+                  "client-side",
+                  "http-logs",
+                  "java",
+                  "logbook",
+                  "logger",
+                  "logging",
+                  "logs",
+                  "monitoring",
+                  "observability",
+                  "plugin-extension",
+                  "request-response",
+                  "server-side",
+                  "spring-boot",
+                  "spring-boot-starter"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -865,12 +1488,17 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "A Statsd-compatible metrics aggregator",
+                "homepage": null,
                 "id": 37189021,
                 "language": "C",
+                "license": "MIT",
                 "last_commit": "2019-11-14T10:59:50Z",
+                "open_issues": 28,
                 "owner": "github",
                 "repo": "brubeck",
-                "stars": 1177
+                "stars": 1177,
+                "topics": []
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -881,12 +1509,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Cold storage that queries like hot storage. High-ratio JSONL compressor with block-level random access. Query cold storage in seconds — no restore, no full decompression. 5–13% ratio on JSONL logs, 25–57% smaller than gzip. 1-hour window via DuckDB in under 6s. Free for personal and open-source use.",
+                "homepage": null,
                 "id": 1198473087,
                 "language": null,
+                "license": "NOASSERTION",
                 "last_commit": "2026-06-19T14:00:45Z",
+                "open_issues": 0,
                 "owner": "ImpossibleForge",
                 "repo": "pfc-jsonl",
-                "stars": 6
+                "stars": 6,
+                "topics": [
+                  "cli",
+                  "compression",
+                  "cost-savings",
+                  "data-compression",
+                  "duckdb",
+                  "egress",
+                  "egress-control",
+                  "egress-cost",
+                  "fluent-bit",
+                  "jsonl",
+                  "log-archival",
+                  "log-compression",
+                  "query-cold-storage",
+                  "query-old-logs-s3",
+                  "query-s3",
+                  "reduce-s3-egress",
+                  "s3",
+                  "s3-cost",
+                  "storage-optimization",
+                  "structured-logs"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -897,12 +1551,35 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Compact centralized logging: POST /logs -> Go gateway -> ClickHouse. Built for a ~1 GB RAM VPS, stdlib-only gateway.",
+                "homepage": null,
                 "id": 1259208425,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-08-28T10:15:56Z",
+                "open_issues": 8,
                 "owner": "ginkida",
                 "repo": "logden",
-                "stars": 4
+                "stars": 4,
+                "topics": [
+                  "centralized-logging",
+                  "clickhouse",
+                  "docker",
+                  "golang",
+                  "homelab",
+                  "lightweight",
+                  "log-aggregation",
+                  "log-management",
+                  "logging",
+                  "logs",
+                  "monitoring",
+                  "observability",
+                  "prometheus",
+                  "self-hosted",
+                  "selfhosted",
+                  "structured-logging",
+                  "vps"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -920,12 +1597,33 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🇺🇦🇵🇱 A static analysis tool for OpenTelemetry Collector configurations. Built on OPA/Rego, it validates your pipelines, receivers, processors, and exporters against customizable policy rules – catching misconfigurations before they reach production",
+                "homepage": null,
                 "id": 1200775282,
                 "language": "Open Policy Agent",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T17:10:30Z",
+                "open_issues": 5,
                 "owner": "starkross",
                 "repo": "augur",
-                "stars": 63
+                "stars": 63,
+                "topics": [
+                  "ci-cd",
+                  "collector-configuration",
+                  "config-linter",
+                  "configuration-validation",
+                  "devops",
+                  "linter",
+                  "monitoring",
+                  "observability",
+                  "opentelemetry",
+                  "opentelemetry-collector",
+                  "opentelemetry-tools",
+                  "otel",
+                  "otel-collector",
+                  "static-analysis",
+                  "telemetry"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -949,12 +1647,35 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The open-source observability database. One columnar engine for metrics, logs, and traces, on object storage.",
+                "homepage": "https://greptime.com/product/db",
                 "id": 480217156,
                 "language": "Rust",
-                "last_commit": "2026-08-28T09:33:26Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T15:44:28Z",
+                "open_issues": 241,
                 "owner": "GreptimeTeam",
                 "repo": "greptimedb",
-                "stars": 6579
+                "stars": 6580,
+                "topics": [
+                  "ai-agents",
+                  "cloud-native",
+                  "distributed-database",
+                  "greptimedb",
+                  "high-cardinality",
+                  "logs",
+                  "metrics",
+                  "object-storage",
+                  "observability",
+                  "observability-database",
+                  "opentelemetry",
+                  "prometheus",
+                  "promql",
+                  "rust",
+                  "self-hosted",
+                  "traces",
+                  "wide-events"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -965,12 +1686,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "In-memory dimensional time series database.",
+                "homepage": null,
                 "id": 22631422,
                 "language": "Scala",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T00:45:35Z",
+                "open_issues": 8,
                 "owner": "Netflix",
                 "repo": "atlas",
-                "stars": 3564
+                "stars": 3564,
+                "topics": []
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -981,12 +1707,23 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "metrics2.0 based, multi-tenant timeseries store for Graphite and friends.",
+                "homepage": null,
                 "id": 30401116,
                 "language": "Go",
+                "license": "AGPL-3.0",
                 "last_commit": "2023-08-23T15:17:14Z",
+                "open_issues": 34,
                 "owner": "grafana-cold-storage",
                 "repo": "metrictank",
-                "stars": 617
+                "stars": 617,
+                "topics": [
+                  "deprecated",
+                  "graphite",
+                  "metrics",
+                  "monitoring",
+                  "unmaintained"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -997,12 +1734,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A lightweight schema-on-read analytics in a single binary",
+                "homepage": "https://docs.lynxdb.org/",
                 "id": 1171631123,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-15T03:03:35Z",
+                "open_issues": 8,
                 "owner": "lynxbase",
                 "repo": "lynxdb",
-                "stars": 283
+                "stars": 283,
+                "topics": [
+                  "analytics",
+                  "database",
+                  "devops",
+                  "golang",
+                  "logging",
+                  "splunk"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -1020,12 +1769,32 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open Source HTTP Reverse Proxy Cache and Time Series DB Query Accelerator",
+                "homepage": "https://trickstercache.org",
                 "id": 127344362,
                 "language": "Go",
-                "last_commit": "2026-08-27T13:26:44Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T23:52:32Z",
+                "open_issues": 13,
                 "owner": "trickstercache",
                 "repo": "trickster",
-                "stars": 2088
+                "stars": 2088,
+                "topics": [
+                  "accelerator",
+                  "caching",
+                  "clickhouse",
+                  "dashboards",
+                  "druid",
+                  "graphite",
+                  "http-proxy",
+                  "influxdb",
+                  "load-balancer",
+                  "mysql",
+                  "performance",
+                  "prometheus",
+                  "reverse-proxy",
+                  "tsdb"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -1043,12 +1812,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A horizontally scalable, highly available, multi-tenant, long term Prometheus.",
+                "homepage": "https://cortexmetrics.io/",
                 "id": 67793333,
                 "language": "Go",
-                "last_commit": "2026-08-28T02:02:43Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T13:28:51Z",
+                "open_issues": 354,
                 "owner": "cortexproject",
                 "repo": "cortex",
-                "stars": 5856
+                "stars": 5857,
+                "topics": [
+                  "cncf",
+                  "hacktoberfest",
+                  "kubernetes",
+                  "monitoring",
+                  "prometheus"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1059,12 +1839,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "M3 monorepo - Distributed TSDB, Aggregator and Query Engine, Prometheus Sidecar, Graphite Compatible, Metrics Platform",
+                "homepage": "https://m3db.io/",
                 "id": 61153677,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-17T15:26:52Z",
+                "open_issues": 225,
                 "owner": "m3db",
                 "repo": "m3",
-                "stars": 4895
+                "stars": 4895,
+                "topics": [
+                  "aggregator",
+                  "graphite",
+                  "kubernetes",
+                  "m3",
+                  "metrics",
+                  "prometheus",
+                  "query-engine",
+                  "tsdb"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1075,12 +1869,19 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "[DEPRECATED] Promscale is a unified metric and trace observability backend for Prometheus, Jaeger and OpenTelemetry built on PostgreSQL and TimescaleDB.",
+                "homepage": "https://www.timescale.com/promscale",
                 "id": 252745692,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2024-03-28T23:03:17Z",
+                "open_issues": 131,
                 "owner": "timescale",
                 "repo": "promscale",
-                "stars": 1312
+                "stars": 1312,
+                "topics": [
+                  "deprecated"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1091,12 +1892,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "This repository contains the deployment configurations for the Observatorium instances",
+                "homepage": "https://observatorium.io/",
                 "id": 190750461,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2025-04-16T22:52:10Z",
+                "open_issues": 24,
                 "owner": "observatorium",
                 "repo": "observatorium",
-                "stars": 226
+                "stars": 226,
+                "topics": [
+                  "jaeger",
+                  "monitoring",
+                  "observability",
+                  "prometheus",
+                  "thanos"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -1114,12 +1926,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Zipkin is a distributed tracing system",
+                "homepage": "https://zipkin.io/",
                 "id": 4576305,
                 "language": "Java",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-06T04:10:29Z",
+                "open_issues": 175,
                 "owner": "openzipkin",
                 "repo": "zipkin",
-                "stars": 17455
+                "stars": 17455,
+                "topics": [
+                  "distributed-tracing",
+                  "observability",
+                  "openzipkin",
+                  "tracing",
+                  "zipkin"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1130,12 +1953,20 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Grafana Tempo is a high volume, minimal dependency distributed tracing backend.",
+                "homepage": "https://grafana.com/oss/tempo/",
                 "id": 236055696,
                 "language": "Go",
-                "last_commit": "2026-08-28T11:19:28Z",
+                "license": "AGPL-3.0",
+                "last_commit": "2026-08-28T23:16:01Z",
+                "open_issues": 166,
                 "owner": "grafana",
                 "repo": "tempo",
-                "stars": 5457
+                "stars": 5457,
+                "topics": [
+                  "distributed-tracing",
+                  "grafana"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -1153,12 +1984,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Graphs for Everyone",
+                "homepage": "http://neo4j.com",
                 "id": 6650539,
                 "language": "Java",
+                "license": "GPL-3.0",
                 "last_commit": "2026-08-24T16:47:42Z",
+                "open_issues": 247,
                 "owner": "neo4j",
                 "repo": "neo4j",
-                "stars": 17153
+                "stars": 17159,
+                "topics": [
+                  "cypher",
+                  "database",
+                  "graph",
+                  "graph-database",
+                  "graphdb",
+                  "neo4j",
+                  "nosql"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -1176,12 +2020,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute, please see https://wiki.postgresql.org/wiki/Submitting_a_Patch",
+                "homepage": "https://www.postgresql.org/",
                 "id": 927442,
                 "language": "C",
-                "last_commit": "2026-08-28T06:07:03Z",
+                "license": "NOASSERTION",
+                "last_commit": "2026-08-28T21:35:31Z",
+                "open_issues": 0,
                 "owner": "postgres",
                 "repo": "postgres",
-                "stars": 21921
+                "stars": 21926,
+                "topics": []
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -1205,12 +2054,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "FlameScope is a visualization tool for exploring different time ranges as Flame Graphs.",
+                "homepage": null,
                 "id": 127360212,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2023-10-06T14:48:52Z",
+                "open_issues": 40,
                 "owner": "Netflix",
                 "repo": "flamescope",
-                "stars": 3117
+                "stars": 3117,
+                "topics": []
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -1228,12 +2082,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Your window into all of your data",
+                "homepage": "https://www.elastic.co/products/kibana",
                 "id": 7833168,
                 "language": "TypeScript",
-                "last_commit": "2026-08-28T12:43:26Z",
+                "license": "NOASSERTION",
+                "last_commit": "2026-08-29T04:38:10Z",
+                "open_issues": 14307,
                 "owner": "elastic",
                 "repo": "kibana",
-                "stars": 21266
+                "stars": 21270,
+                "topics": [
+                  "dashboards",
+                  "elasticsearch",
+                  "hacktoberfest",
+                  "kibana",
+                  "metrics",
+                  "observability",
+                  "visualizations"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1244,12 +2111,30 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open source monitoring and visualization UI for the TICK stack",
+                "homepage": "https://www.influxdata.com/time-series-platform/chronograf/",
                 "id": 66506962,
                 "language": "TypeScript",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-11T08:39:57Z",
+                "open_issues": 50,
                 "owner": "influxdata",
                 "repo": "chronograf",
-                "stars": 1567
+                "stars": 1567,
+                "topics": [
+                  "alert",
+                  "apm",
+                  "chronograf",
+                  "dashboard",
+                  "go",
+                  "influxdb",
+                  "kapacitor",
+                  "monitoring",
+                  "react",
+                  "redux",
+                  "telegraf",
+                  "visualization"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1260,12 +2145,19 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Simple Kubernetes real-time dashboard and management.",
+                "homepage": "http://skooner.io/",
                 "id": 175833318,
                 "language": "JavaScript",
+                "license": "Apache-2.0",
                 "last_commit": "2024-06-30T11:31:54Z",
+                "open_issues": 110,
                 "owner": "skooner-k8s",
                 "repo": "skooner",
-                "stars": 1443
+                "stars": 1443,
+                "topics": [
+                  "hacktoberfest"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1276,12 +2168,32 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A tool to track SLA, SLO and Error budgets",
+                "homepage": "https://slotracker.com",
                 "id": 339293025,
                 "language": "TypeScript",
+                "license": "MPL-2.0",
                 "last_commit": "2023-01-30T23:18:53Z",
+                "open_issues": 2,
                 "owner": "roshan8",
                 "repo": "slo-tracker",
-                "stars": 403
+                "stars": 403,
+                "topics": [
+                  "datadog",
+                  "error-budgets",
+                  "golang",
+                  "incidents",
+                  "metrics",
+                  "newrelic",
+                  "observability",
+                  "opensource",
+                  "pingdom",
+                  "prometheus",
+                  "sla",
+                  "sli",
+                  "slo",
+                  "slo-tracker"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1292,12 +2204,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "World's first fully integrated and fully Automated Kubernetes management and orchestration solution",
+                "homepage": "https://console.kubestellar.io",
                 "id": 1135473716,
                 "language": "TypeScript",
-                "last_commit": "2026-08-28T12:30:07Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T04:36:19Z",
+                "open_issues": 13,
                 "owner": "kubestellar",
                 "repo": "console",
-                "stars": 129
+                "stars": 129,
+                "topics": []
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1308,12 +2225,31 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A tiny self-hosted metrics dashboard for small servers. Spring Boot Actuator monitoring with SQLite, simple charts, and no Prometheus/Grafana stack required.",
+                "homepage": "https://pvrlabs.xyz/statlite/",
                 "id": 1300740351,
                 "language": "Go",
-                "last_commit": "2026-08-24T04:25:26Z",
+                "license": "MIT",
+                "last_commit": "2026-08-28T22:19:56Z",
+                "open_issues": 3,
                 "owner": "PVRLabs",
                 "repo": "statlite",
-                "stars": 127
+                "stars": 127,
+                "topics": [
+                  "actuator",
+                  "dashboard",
+                  "go",
+                  "metrics",
+                  "monitoring",
+                  "observability",
+                  "self-hosted",
+                  "server-monitoring",
+                  "spring-actuator",
+                  "spring-boot",
+                  "spring-boot-actuator",
+                  "sqlite",
+                  "vps"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1324,12 +2260,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Metrics dashboards on terminal (a grafana inspired terminal version)",
+                "homepage": null,
                 "id": 179440789,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2022-06-10T00:17:48Z",
+                "open_issues": 11,
                 "owner": "slok",
                 "repo": "grafterm",
-                "stars": 1138
+                "stars": 1138,
+                "topics": [
+                  "dashboard",
+                  "grafana",
+                  "graphs",
+                  "metrics",
+                  "observability",
+                  "prometheus",
+                  "terminal"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1340,12 +2289,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Visualize the traffic of your clusters in realtime from Prometheus data",
+                "homepage": null,
                 "id": 106374828,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2024-07-02T15:09:39Z",
+                "open_issues": 7,
                 "owner": "nghialv",
                 "repo": "promviz",
-                "stars": 955
+                "stars": 955,
+                "topics": [
+                  "microservices",
+                  "monitoring",
+                  "prometheus",
+                  "promviz",
+                  "visualization",
+                  "vizceral"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1356,12 +2317,19 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "A utility for managing Jsonnet dashboards against the Grafana API",
+                "homepage": "https://grafana.github.io/grizzly/",
                 "id": 250869627,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-06-05T10:34:43Z",
+                "open_issues": 34,
                 "owner": "grafana-cold-storage",
                 "repo": "grizzly",
-                "stars": 710
+                "stars": 710,
+                "topics": [
+                  "backstage-include"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -1379,12 +2347,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Zipkin is a distributed tracing system",
+                "homepage": "https://zipkin.io/",
                 "id": 4576305,
                 "language": "Java",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-06T04:10:29Z",
+                "open_issues": 175,
                 "owner": "openzipkin",
                 "repo": "zipkin",
-                "stars": 17455
+                "stars": 17455,
+                "topics": [
+                  "distributed-tracing",
+                  "observability",
+                  "openzipkin",
+                  "tracing",
+                  "zipkin"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1395,12 +2374,20 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Grafana Tempo is a high volume, minimal dependency distributed tracing backend.",
+                "homepage": "https://grafana.com/oss/tempo/",
                 "id": 236055696,
                 "language": "Go",
-                "last_commit": "2026-08-28T11:19:28Z",
+                "license": "AGPL-3.0",
+                "last_commit": "2026-08-28T23:16:01Z",
+                "open_issues": 166,
                 "owner": "grafana",
                 "repo": "tempo",
-                "stars": 5457
+                "stars": 5457,
+                "topics": [
+                  "distributed-tracing",
+                  "grafana"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -1418,12 +2405,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "WebGL visualization for displaying animated traffic graphs",
+                "homepage": null,
                 "id": 59678017,
                 "language": "JavaScript",
+                "license": "Apache-2.0",
                 "last_commit": "2023-11-28T04:23:58Z",
+                "open_issues": 54,
                 "owner": "Netflix",
                 "repo": "vizceral",
-                "stars": 4093
+                "stars": 4093,
+                "topics": [
+                  "graph",
+                  "monitoring",
+                  "traffic",
+                  "visualization",
+                  "webgl"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1434,12 +2432,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A Grafana panel for visualizing a Service Dependency Graph.",
+                "homepage": null,
                 "id": 174122913,
                 "language": "TypeScript",
+                "license": "Apache-2.0",
                 "last_commit": "2026-02-07T12:01:44Z",
+                "open_issues": 51,
                 "owner": "NovatecConsulting",
                 "repo": "novatec-service-dependency-graph-panel",
-                "stars": 213
+                "stars": 214,
+                "topics": [
+                  "grafana",
+                  "grafana-panel",
+                  "monitoring",
+                  "performance"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -1457,12 +2465,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join here: https://discord.com/invite/NAb6H3UTjK :)",
+                "homepage": "https://checkmate.so/",
                 "id": 793866369,
                 "language": "TypeScript",
-                "last_commit": "2026-08-27T21:41:10Z",
+                "license": "AGPL-3.0",
+                "last_commit": "2026-08-29T03:40:42Z",
+                "open_issues": 110,
                 "owner": "bluewave-labs",
                 "repo": "Checkmate",
-                "stars": 10761
+                "stars": 10761,
+                "topics": [
+                  "good-first-contribution",
+                  "good-first-issue",
+                  "good-first-project",
+                  "hacktoberfest",
+                  "help-wanted",
+                  "incident",
+                  "infrastructure",
+                  "infrastructure-monitoring",
+                  "mui",
+                  "mui-material",
+                  "server-monitor",
+                  "server-monitoring",
+                  "server-monitoring-tools",
+                  "statuspage",
+                  "uptime",
+                  "uptime-checker",
+                  "uptime-monitor",
+                  "uptime-monitoring",
+                  "uptime-status",
+                  "uptimerobot"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -1486,12 +2520,36 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A high-performance observability data pipeline.",
+                "homepage": "https://vector.dev",
                 "id": 146327667,
                 "language": "Rust",
-                "last_commit": "2026-08-28T09:16:32Z",
+                "license": "MPL-2.0",
+                "last_commit": "2026-08-29T02:18:46Z",
+                "open_issues": 2512,
                 "owner": "vectordotdev",
                 "repo": "vector",
-                "stars": 22469
+                "stars": 22476,
+                "topics": [
+                  "agent",
+                  "cloud-native",
+                  "data-transformation",
+                  "datadog",
+                  "etl",
+                  "events",
+                  "forwarder",
+                  "hacktoberfest",
+                  "high-performance",
+                  "logs",
+                  "metrics",
+                  "monitoring",
+                  "observability",
+                  "pipelines",
+                  "rust-lang",
+                  "stream-processing",
+                  "telemetry",
+                  "traces"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1502,12 +2560,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Deterministic pytest suite generator from Kibana API logs",
+                "homepage": null,
                 "id": 1226373660,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-24T05:21:09Z",
+                "open_issues": 0,
                 "owner": "golikovichev",
                 "repo": "secure-log2test",
-                "stars": 2
+                "stars": 2,
+                "topics": [
+                  "api-testing",
+                  "cli",
+                  "kibana",
+                  "log-parsing",
+                  "logs",
+                  "pytest",
+                  "python",
+                  "qa",
+                  "test-generation",
+                  "testing"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -1525,12 +2599,37 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🦥 Easy and simple Prometheus SLO (service level objectives) generator",
+                "homepage": "https://sloth.dev",
                 "id": 355253165,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-06-19T07:22:10Z",
+                "open_issues": 16,
                 "owner": "slok",
                 "repo": "sloth",
-                "stars": 2541
+                "stars": 2541,
+                "topics": [
+                  "alerting",
+                  "alerts",
+                  "autogenerates-prometheus-slo",
+                  "controller",
+                  "google-slo",
+                  "kubernetes",
+                  "metrics",
+                  "monitoring",
+                  "observability",
+                  "oncall",
+                  "openslo",
+                  "operator",
+                  "prometheus",
+                  "prometheus-operator",
+                  "service-level",
+                  "service-level-objective",
+                  "sla",
+                  "sli",
+                  "slo"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1541,12 +2640,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Easy & Flexible Alerting With ElasticSearch",
+                "homepage": "https://elastalert.readthedocs.org",
                 "id": 27091760,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2024-08-07T06:30:10Z",
+                "open_issues": 1401,
                 "owner": "YelpArchive",
                 "repo": "elastalert",
-                "stars": 7987
+                "stars": 7987,
+                "topics": []
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1557,12 +2661,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Prometheus Alertmanager",
+                "homepage": "https://prometheus.io",
                 "id": 11452538,
                 "language": "Go",
-                "last_commit": "2026-08-28T12:09:01Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T17:10:00Z",
+                "open_issues": 411,
                 "owner": "prometheus",
                 "repo": "alertmanager",
-                "stars": 8598
+                "stars": 8598,
+                "topics": [
+                  "alertmanager",
+                  "deduplication",
+                  "email",
+                  "hacktoberfest",
+                  "monitoring",
+                  "notifications",
+                  "opsgenie",
+                  "pagerduty",
+                  "slack"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1573,12 +2692,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open source framework for processing, monitoring, and alerting on time series data",
+                "homepage": null,
                 "id": 41681600,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-08-10T15:38:52Z",
+                "open_issues": 833,
                 "owner": "influxdata",
                 "repo": "kapacitor",
-                "stars": 2375
+                "stars": 2375,
+                "topics": [
+                  "kapacitor",
+                  "monitoring",
+                  "time-series"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1589,12 +2717,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "An alerting dashboard for Graphite",
+                "homepage": null,
                 "id": 4167742,
                 "language": "Java",
+                "license": "NOASSERTION",
                 "last_commit": "2022-12-16T01:42:14Z",
+                "open_issues": 59,
                 "owner": "scobal",
                 "repo": "seyren",
-                "stars": 861
+                "stars": 861,
+                "topics": []
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1605,12 +2738,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Generate the complete reliability stack from a service spec in 5 minutes. Dashboards, alerts, SLOs, PagerDuty - zero toil.",
+                "homepage": "https://rsionnach.github.io/nthlayer/",
                 "id": 1104878764,
                 "language": "Shell",
+                "license": null,
                 "last_commit": "2026-07-13T05:11:30Z",
+                "open_issues": 35,
                 "owner": "rsionnach",
                 "repo": "nthlayer",
-                "stars": 17
+                "stars": 17,
+                "topics": [
+                  "alerts",
+                  "devops",
+                  "grafana",
+                  "monitoring",
+                  "observability",
+                  "pagerduty",
+                  "prometheus",
+                  "python",
+                  "slo",
+                  "sre"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1621,12 +2770,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Send unhandled Python exceptions straight to a Telegram chat. No backend, no account, no database - just your own bot token.",
+                "homepage": "https://pypi.org/project/devalerts/",
                 "id": 1303516611,
                 "language": "Python",
-                "last_commit": "2026-08-21T23:35:26Z",
+                "license": "MIT",
+                "last_commit": "2026-08-28T23:34:44Z",
+                "open_issues": 2,
                 "owner": "sslinNn",
                 "repo": "devalerts",
-                "stars": 0
+                "stars": 0,
+                "topics": [
+                  "alerts",
+                  "asgi",
+                  "error-tracking",
+                  "exception-monitoring",
+                  "logging",
+                  "monitoring",
+                  "python",
+                  "telegram"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -1644,12 +2807,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A programmable, observable and distributed job orchestration system.",
+                "homepage": null,
                 "id": 264516696,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2023-12-08T18:07:33Z",
+                "open_issues": 47,
                 "owner": "theycallmemac",
                 "repo": "odin",
-                "stars": 483
+                "stars": 483,
+                "topics": [
+                  "automation",
+                  "cron",
+                  "distributed",
+                  "distributed-systems",
+                  "go",
+                  "golang",
+                  "job-scheduler",
+                  "nodejs",
+                  "observability",
+                  "odin",
+                  "orchestration",
+                  "productivity",
+                  "python",
+                  "raft",
+                  "scheduling",
+                  "typescript",
+                  "workflow-automation",
+                  "workflow-engine",
+                  "workflow-management",
+                  "workflows"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1660,12 +2849,17 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "Execute command based on Prometheus alerts",
+                "homepage": null,
                 "id": 55967741,
                 "language": "Go",
+                "license": "BSD-2-Clause",
                 "last_commit": "2022-03-27T20:01:24Z",
+                "open_issues": 9,
                 "owner": "imgix",
                 "repo": "prometheus-am-executor",
-                "stars": 228
+                "stars": 228,
+                "topics": []
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -1683,12 +2877,38 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "ML powered analytics engine for outlier detection and root cause analysis.",
+                "homepage": "https://www.chaosgenius.io",
                 "id": 371296634,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2024-09-12T07:46:44Z",
+                "open_issues": 74,
                 "owner": "chaos-genius",
                 "repo": "chaos_genius",
-                "stars": 778
+                "stars": 778,
+                "topics": [
+                  "ai",
+                  "alert",
+                  "alert-messages",
+                  "analytics",
+                  "anomaly-detection",
+                  "business-intelligence",
+                  "data-visualization",
+                  "dataquality",
+                  "deep-learning",
+                  "hacktoberfest",
+                  "machine-learning",
+                  "ml",
+                  "monitoring",
+                  "monitoring-tool",
+                  "observability",
+                  "outlier-detection",
+                  "python",
+                  "rootcauseanalysis",
+                  "seasonality",
+                  "time-series"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1699,12 +2919,24 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "A newer more updated version of the prometheus anomaly detector (https://github.com/AICoE/prometheus-anomaly-detector-legacy)",
+                "homepage": null,
                 "id": 186887711,
                 "language": "Jupyter Notebook",
+                "license": "GPL-3.0",
                 "last_commit": "2023-05-27T06:27:12Z",
+                "open_issues": 12,
                 "owner": "AICoE",
                 "repo": "prometheus-anomaly-detector",
-                "stars": 611
+                "stars": 611,
+                "topics": [
+                  "hacktoberfest",
+                  "metric-data",
+                  "predicted-metrics",
+                  "prometheus-anomaly-detector",
+                  "prometheus-metrics",
+                  "prophet-model"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1715,12 +2947,28 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "Log Anomaly Detection - Machine learning to detect abnormal events logs",
+                "homepage": "https://log-anomaly-detector.readthedocs.io/en/latest/",
                 "id": 148634371,
                 "language": "Jupyter Notebook",
+                "license": "GPL-3.0",
                 "last_commit": "2023-04-21T20:24:46Z",
+                "open_issues": 3,
                 "owner": "AICoE",
                 "repo": "log-anomaly-detector",
-                "stars": 346
+                "stars": 346,
+                "topics": [
+                  "aiops",
+                  "anomaly-detection",
+                  "artificial-intelligence",
+                  "gensim",
+                  "kubernetes",
+                  "log",
+                  "machine-learning-algorithms",
+                  "som",
+                  "stream-processing",
+                  "word2vec"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1731,12 +2979,34 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Unified observability gateway for AI agents — one MCP server for Prometheus, Loki, and any backend, with cross-signal anomaly detection and a built-in Web UI.",
+                "homepage": "https://www.npmjs.com/package/@thotischner/observability-mcp",
                 "id": 1193031308,
                 "language": "TypeScript",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T19:03:02Z",
+                "open_issues": 5,
                 "owner": "ThoTischner",
                 "repo": "observability-mcp",
-                "stars": 6
+                "stars": 6,
+                "topics": [
+                  "ai-agents",
+                  "anomaly-detection",
+                  "anthropic",
+                  "claude",
+                  "gateway",
+                  "helm",
+                  "kubernetes",
+                  "llm",
+                  "loki",
+                  "mcp",
+                  "mcp-server",
+                  "model-context-protocol",
+                  "monitoring",
+                  "observability",
+                  "prometheus",
+                  "sre"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1747,12 +3017,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Anomalies detection system for periodic metrics.",
+                "homepage": "https://godoc.org/github.com/eleme/banshee",
                 "id": 56952191,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2016-04-22T11:01:34Z",
+                "open_issues": 0,
                 "owner": "bbotte",
                 "repo": "banshee-detection_system",
-                "stars": 2
+                "stars": 2,
+                "topics": []
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -1776,12 +3051,37 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 ",
+                "homepage": "https://langfuse.com",
                 "id": 642497346,
                 "language": "TypeScript",
-                "last_commit": "2026-08-28T12:35:11Z",
+                "license": "NOASSERTION",
+                "last_commit": "2026-08-29T03:13:21Z",
+                "open_issues": 860,
                 "owner": "langfuse",
                 "repo": "langfuse",
-                "stars": 33857
+                "stars": 33872,
+                "topics": [
+                  "analytics",
+                  "autogen",
+                  "evaluation",
+                  "langchain",
+                  "large-language-models",
+                  "llama-index",
+                  "llm",
+                  "llm-evaluation",
+                  "llm-observability",
+                  "llmops",
+                  "monitoring",
+                  "observability",
+                  "open-source",
+                  "openai",
+                  "playground",
+                  "prompt-engineering",
+                  "prompt-management",
+                  "self-hosted",
+                  "ycombinator"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1792,12 +3092,31 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
+                "homepage": "https://www.comet.com/docs/opik/",
                 "id": 638951438,
                 "language": "Python",
-                "last_commit": "2026-08-28T12:29:48Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T20:16:26Z",
+                "open_issues": 213,
                 "owner": "comet-ml",
                 "repo": "opik",
-                "stars": 21648
+                "stars": 21659,
+                "topics": [
+                  "evaluation",
+                  "hacktoberfest",
+                  "hacktoberfest2025",
+                  "langchain",
+                  "llama-index",
+                  "llm",
+                  "llm-evaluation",
+                  "llm-observability",
+                  "llmops",
+                  "open-source",
+                  "openai",
+                  "playground",
+                  "prompt-engineering"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1808,12 +3127,34 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "AI Observability & Evaluation",
+                "homepage": "https://arize.com/docs/phoenix",
                 "id": 564072810,
                 "language": "Python",
-                "last_commit": "2026-08-28T02:19:19Z",
+                "license": "NOASSERTION",
+                "last_commit": "2026-08-29T02:14:39Z",
+                "open_issues": 916,
                 "owner": "Arize-ai",
                 "repo": "phoenix",
-                "stars": 11223
+                "stars": 11229,
+                "topics": [
+                  "agents",
+                  "ai-monitoring",
+                  "ai-observability",
+                  "aiengineering",
+                  "anthropic",
+                  "datasets",
+                  "evals",
+                  "langchain",
+                  "llamaindex",
+                  "llm-eval",
+                  "llm-evaluation",
+                  "llmops",
+                  "llms",
+                  "openai",
+                  "prompt-engineering",
+                  "smolagents"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1824,28 +3165,37 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓",
+                "homepage": "https://www.helicone.ai",
                 "id": 595832198,
                 "language": "TypeScript",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-26T00:04:40Z",
+                "open_issues": 155,
                 "owner": "Helicone",
                 "repo": "helicone",
-                "stars": 6106
-              },
-              "first_seen": "2026-08-28T12:45:09.718Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Latitude",
-              "description": "Open-source LLM observability and evaluation platform. Traces, monitors, and evaluates AI agents in production, clusters failures into issues, and generates evals from real-world failures. Built on OpenTelemetry with OpenInference and OpenLLMetry support.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "id": 821360765,
-                "language": "TypeScript",
-                "last_commit": "2026-08-28T08:09:29Z",
-                "owner": "latitude-dev",
-                "repo": "latitude-llm",
-                "stars": 4604
+                "stars": 6109,
+                "topics": [
+                  "agent-monitoring",
+                  "analytics",
+                  "evaluation",
+                  "gpt",
+                  "langchain",
+                  "large-language-models",
+                  "llama-index",
+                  "llm",
+                  "llm-cost",
+                  "llm-evaluation",
+                  "llm-observability",
+                  "llmops",
+                  "monitoring",
+                  "open-source",
+                  "openai",
+                  "playground",
+                  "prompt-engineering",
+                  "prompt-management",
+                  "ycombinator"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1856,12 +3206,64 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Agenta is a workspace where you and your team build agents and automations.",
+                "homepage": "http://www.agenta.ai",
                 "id": 632871628,
                 "language": "TypeScript",
-                "last_commit": "2026-08-28T12:32:18Z",
+                "license": "NOASSERTION",
+                "last_commit": "2026-08-28T21:08:48Z",
+                "open_issues": 290,
                 "owner": "Agenta-AI",
                 "repo": "agenta",
-                "stars": 4578
+                "stars": 4627,
+                "topics": [
+                  "agent-builder",
+                  "agent-observability",
+                  "agent-orchestration",
+                  "agent-workspace",
+                  "agentic-ai",
+                  "ai-agent",
+                  "ai-agents",
+                  "ai-automation",
+                  "ai-coworker",
+                  "ai-skills-manager",
+                  "ai-workflow-builder",
+                  "harness",
+                  "mcp",
+                  "open-source",
+                  "self-hosted",
+                  "workflow-automation"
+                ]
+              },
+              "first_seen": "2026-08-28T12:45:09.718Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Latitude",
+              "description": "Open-source LLM observability and evaluation platform. Traces, monitors, and evaluates AI agents in production, clusters failures into issues, and generates evals from real-world failures. Built on OpenTelemetry with OpenInference and OpenLLMetry support.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Latitude is the open-source AI monitoring platform.",
+                "homepage": "https://latitude.so",
+                "id": 821360765,
+                "language": "TypeScript",
+                "license": "MIT",
+                "last_commit": "2026-08-28T08:09:29Z",
+                "open_issues": 115,
+                "owner": "latitude-dev",
+                "repo": "latitude-llm",
+                "stars": 4605,
+                "topics": [
+                  "agent-monitoring",
+                  "agent-observability",
+                  "ai-error-monitor",
+                  "ai-monitoring",
+                  "ai-observability",
+                  "llm-error-tracing",
+                  "llm-observability",
+                  "llm-tools"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1872,12 +3274,34 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "AI observability platform for production LLM and agent systems.",
+                "homepage": "https://pydantic.dev/logfire/",
                 "id": 790713784,
                 "language": "Python",
-                "last_commit": "2026-08-28T08:02:25Z",
+                "license": "MIT",
+                "last_commit": "2026-08-29T03:44:56Z",
+                "open_issues": 194,
                 "owner": "pydantic",
                 "repo": "logfire",
-                "stars": 4443
+                "stars": 4444,
+                "topics": [
+                  "agent-observability",
+                  "ai",
+                  "ai-observability",
+                  "ai-tools",
+                  "evals",
+                  "fastapi",
+                  "llm-observability",
+                  "logging",
+                  "metrics",
+                  "observability",
+                  "openai",
+                  "opentelemetry",
+                  "pydantic",
+                  "pydantic-ai",
+                  "python",
+                  "trace"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1888,12 +3312,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Laminar - open-source observability platform purpose-built for AI agents. YC S24.",
+                "homepage": "https://laminar.sh",
                 "id": 849139885,
                 "language": "TypeScript",
-                "last_commit": "2026-08-27T17:04:53Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T20:31:22Z",
+                "open_issues": 118,
                 "owner": "lmnr-ai",
                 "repo": "lmnr",
-                "stars": 3206
+                "stars": 3207,
+                "topics": [
+                  "agent-observability",
+                  "agents",
+                  "ai",
+                  "ai-observability",
+                  "aiops",
+                  "analytics",
+                  "developer-tools",
+                  "evals",
+                  "evaluation",
+                  "llm-evaluation",
+                  "llm-observability",
+                  "llmops",
+                  "monitoring",
+                  "observability",
+                  "open-source",
+                  "rust",
+                  "rust-lang",
+                  "self-hosted",
+                  "ts",
+                  "typescript"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1904,12 +3354,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.",
+                "homepage": "https://docs.openlit.io",
                 "id": 747319327,
                 "language": "TypeScript",
-                "last_commit": "2026-08-28T05:34:36Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-28T16:59:03Z",
+                "open_issues": 55,
                 "owner": "openlit",
                 "repo": "openlit",
-                "stars": 2720
+                "stars": 2721,
+                "topics": [
+                  "ai-observability",
+                  "amd-gpu",
+                  "clickhouse",
+                  "distributed-tracing",
+                  "genai",
+                  "gpu-monitoring",
+                  "grafana",
+                  "langchain",
+                  "llmops",
+                  "llms",
+                  "metrics",
+                  "monitoring-tool",
+                  "nvidia-smi",
+                  "observability",
+                  "open-source",
+                  "openai",
+                  "opentelemetry",
+                  "otlp",
+                  "python",
+                  "tracing"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1920,12 +3396,32 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Langtrace 🔍 is an open-source,  Open Telemetry based end-to-end observability tool for LLM applications, providing real-time tracing, evaluations and metrics for popular LLMs, LLM frameworks, vectorDBs and more.. Integrate using Typescript, Python. 🚀💻📊",
+                "homepage": "https://langtrace.ai",
                 "id": 779843396,
                 "language": "TypeScript",
+                "license": "AGPL-3.0",
                 "last_commit": "2025-11-17T15:08:48Z",
+                "open_issues": 2,
                 "owner": "Scale3-Labs",
                 "repo": "langtrace",
-                "stars": 1229
+                "stars": 1229,
+                "topics": [
+                  "ai",
+                  "datasets",
+                  "evaluations",
+                  "gpt",
+                  "langchain",
+                  "llm",
+                  "llm-framework",
+                  "llmops",
+                  "observability",
+                  "open-source",
+                  "open-telemetry",
+                  "openai",
+                  "prompt-engineering",
+                  "tracing"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1936,12 +3432,32 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Agent and LLM API performance monitoring via network packet probe. Measures performance of OpenClaw, Claude, Codex, DeepAgents and more — deployed on the provider side, no SDK changes required.",
+                "homepage": "https://heron-ai.pages.dev",
                 "id": 1204399383,
                 "language": "Rust",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-18T08:24:47Z",
+                "open_issues": 3,
                 "owner": "Netis",
                 "repo": "heron",
-                "stars": 93
+                "stars": 93,
+                "topics": [
+                  "agentic-ai",
+                  "ai-agent-development",
+                  "ai-observability",
+                  "libpcap",
+                  "litellm",
+                  "llm-monitoring",
+                  "llm-observability",
+                  "llmops",
+                  "observability",
+                  "ollama",
+                  "packet-capture",
+                  "rust",
+                  "sglang",
+                  "vllm"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1952,12 +3468,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Intent as Code | the workflow language for AI. One file, 4 verbs, one Rust binary. Local-first, any model, AGPL-3.0. 🦋",
+                "homepage": "https://nika.sh",
                 "id": 1126625946,
                 "language": "Rust",
+                "license": "AGPL-3.0",
                 "last_commit": "2026-08-28T09:28:46Z",
+                "open_issues": 45,
                 "owner": "supernovae-st",
                 "repo": "nika",
-                "stars": 58
+                "stars": 60,
+                "topics": [
+                  "agents",
+                  "ai",
+                  "ai-agents",
+                  "ai-workflows",
+                  "automation",
+                  "cli",
+                  "dag",
+                  "developer-tools",
+                  "devops",
+                  "llm",
+                  "local-ai",
+                  "mcp",
+                  "ollama",
+                  "rust",
+                  "self-hosted",
+                  "structured-output",
+                  "workflow",
+                  "workflow-automation",
+                  "workflow-engine",
+                  "yaml"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1968,12 +3510,36 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Python SDK for accurate and verifiable agent tool use. Agents verify that answers came from the right source and were not changed. Downstream agents detect 100% of errors and retry to achieve a 50% jump in answer accuracy.",
+                "homepage": "http://provably.ai/",
                 "id": 1222392614,
                 "language": "Python",
-                "last_commit": "2026-08-26T08:56:56Z",
+                "license": "NOASSERTION",
+                "last_commit": "2026-08-28T12:58:24Z",
+                "open_issues": 15,
                 "owner": "ProvablyAI",
                 "repo": "sourcerykit",
-                "stars": 18
+                "stars": 19,
+                "topics": [
+                  "agent-reliability",
+                  "agent-security",
+                  "ai-agents",
+                  "ai-guardrails",
+                  "ai-security",
+                  "langchain",
+                  "langgraph",
+                  "llm-firewall",
+                  "llm-security",
+                  "mcp",
+                  "mcp-security",
+                  "model-context-protocol",
+                  "prompt-injection",
+                  "python-sdk",
+                  "security",
+                  "sourcerykit",
+                  "tool-calling",
+                  "zero-knowledge-proofs"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -1984,12 +3550,33 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Local-first observability dashboard for AI agents. MCP-native. Look at every span your agents emit.",
+                "homepage": "https://fervon.dev/lookspan/",
                 "id": 1252759143,
                 "language": "TypeScript",
-                "last_commit": "2026-08-27T17:35:14Z",
+                "license": "MIT",
+                "last_commit": "2026-08-28T18:35:15Z",
+                "open_issues": 3,
                 "owner": "JoniMartin27",
                 "repo": "lookspan",
-                "stars": 7
+                "stars": 7,
+                "topics": [
+                  "agent-observability",
+                  "ai-agents",
+                  "ai-observability",
+                  "dashboard",
+                  "evals",
+                  "fervon",
+                  "llm",
+                  "llm-observability",
+                  "llmops",
+                  "local-first",
+                  "mcp",
+                  "observability",
+                  "opentelemetry",
+                  "tracing",
+                  "typescript"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -2000,12 +3587,30 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Local-first DevTools for AI calls. See every LLM call your app makes: prompt, cost, tokens, latency, tool calls.",
+                "homepage": null,
                 "id": 1260595094,
                 "language": "C#",
+                "license": "MIT",
                 "last_commit": "2026-06-23T17:42:23Z",
+                "open_issues": 0,
                 "owner": "eladser",
                 "repo": "seerlens",
-                "stars": 4
+                "stars": 4,
+                "topics": [
+                  "ai",
+                  "ai-agents",
+                  "csharp",
+                  "devtools",
+                  "dotnet",
+                  "evals",
+                  "llm",
+                  "llmops",
+                  "mcp",
+                  "observability",
+                  "opentelemetry",
+                  "tracing"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -2023,12 +3628,36 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open-source observability for your GenAI or LLM application, based on OpenTelemetry",
+                "homepage": "https://www.traceloop.com/openllmetry",
                 "id": 686364232,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-10T08:49:01Z",
+                "open_issues": 658,
                 "owner": "traceloop",
                 "repo": "openllmetry",
-                "stars": 7405
+                "stars": 7405,
+                "topics": [
+                  "artifical-intelligence",
+                  "datascience",
+                  "generative-ai",
+                  "good-first-issue",
+                  "good-first-issues",
+                  "help-wanted",
+                  "llm",
+                  "llmops",
+                  "metrics",
+                  "ml",
+                  "model-monitoring",
+                  "monitoring",
+                  "observability",
+                  "open-source",
+                  "open-telemetry",
+                  "opentelemetry",
+                  "opentelemetry-python",
+                  "python"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -2039,12 +3668,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open-source observability for your LLM application.",
+                "homepage": "https://pypi.org/project/myscale-telemetry/",
                 "id": 803602083,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2025-01-02T08:49:58Z",
+                "open_issues": 4,
                 "owner": "myscale",
                 "repo": "myscale-telemetry",
-                "stars": 55
+                "stars": 55,
+                "topics": [
+                  "callback",
+                  "langchain",
+                  "llm-observability",
+                  "monitoring",
+                  "python"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -2055,12 +3695,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Local replay debugger for Browser Use failures with screenshots, model I/O, failed-step timelines, and public-safe HTML exports.",
+                "homepage": "https://aaronlab.github.io/browsertrace/",
                 "id": 1221453647,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-05-14T09:43:04Z",
+                "open_issues": 19,
                 "owner": "aaronlab",
                 "repo": "browsertrace",
-                "stars": 4
+                "stars": 4,
+                "topics": [
+                  "agent-debugging",
+                  "agent-observability",
+                  "agent-tracing",
+                  "ai-agent",
+                  "ai-agent-debugging",
+                  "ai-agents",
+                  "browser-agent",
+                  "browser-agents",
+                  "browser-automation",
+                  "browser-use",
+                  "computer-use",
+                  "debugging",
+                  "llm",
+                  "llm-observability",
+                  "local-first",
+                  "observability",
+                  "playwright",
+                  "skyvern",
+                  "stagehand",
+                  "trace-viewer"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -2078,12 +3744,33 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Connect Your Agents And Harnesses With Any Provider 🦚",
+                "homepage": "https://manifest.build",
                 "id": 542185751,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-28T08:09:40Z",
+                "open_issues": 115,
                 "owner": "mnfst",
                 "repo": "manifest",
-                "stars": 7482
+                "stars": 7483,
+                "topics": [
+                  "ai",
+                  "ai-",
+                  "ai-sdk",
+                  "anthropic",
+                  "byok",
+                  "cost-tracking",
+                  "gateway",
+                  "hermes-agent",
+                  "llm-observability",
+                  "llm-router",
+                  "open-source",
+                  "openai-api",
+                  "openclaw",
+                  "subscription",
+                  "token-tracking"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -2094,12 +3781,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Track AI API quotas across Synthetic, Z.ai, Anthropic (Claude Code), Codex, GitHub Copilot & Antigravity in real time. Lightweight background daemon (<50MB RAM), SQLite storage, Material Design 3 dashboard. Zero telemetry.",
+                "homepage": "https://onwatch.onllm.dev",
                 "id": 1151441959,
                 "language": "Go",
+                "license": "GPL-3.0",
                 "last_commit": "2026-08-20T17:19:37Z",
+                "open_issues": 9,
                 "owner": "onllm-dev",
                 "repo": "onWatch",
-                "stars": 718
+                "stars": 718,
+                "topics": [
+                  "ai-api-monitoring",
+                  "antigravity",
+                  "api-monitoring",
+                  "claude-code",
+                  "codex",
+                  "developer-tools",
+                  "golang",
+                  "openai",
+                  "quota-tracker",
+                  "zai"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -2110,12 +3813,33 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Local-first Rust TUI/CLI for auditing AI coding-agent sessions: cost, tokens, latency, failures, and health｜本地优先 Rust TUI/CLI，审计 AI 编程 Agent 会话的成本、Token、延迟、失败与健康度",
+                "homepage": "https://github.com/luoyuctl/agenttrace",
                 "id": 1226187070,
                 "language": "Rust",
+                "license": "MIT",
                 "last_commit": "2026-08-24T01:09:37Z",
+                "open_issues": 7,
                 "owner": "luoyuctl",
                 "repo": "agenttrace",
-                "stars": 123
+                "stars": 124,
+                "topics": [
+                  "ai-agent-observability",
+                  "ai-agents",
+                  "ai-cost-tracking",
+                  "claude-code",
+                  "codex-cli",
+                  "coding-agent",
+                  "cursor",
+                  "gemini-cli",
+                  "opencode",
+                  "qwen-code",
+                  "rust",
+                  "rust-cli",
+                  "session-history",
+                  "token-usage",
+                  "tui"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -2126,12 +3850,30 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "the agent experience layer · observability + memory for AI coding agents (Claude Code + Codex) · local-first, typed, yours",
+                "homepage": null,
                 "id": 1232710515,
                 "language": "TypeScript",
+                "license": "AGPL-3.0",
                 "last_commit": "2026-08-26T15:01:41Z",
+                "open_issues": 34,
                 "owner": "Necmttn",
                 "repo": "ax",
-                "stars": 103
+                "stars": 103,
+                "topics": [
+                  "agent-memory",
+                  "agent-observability",
+                  "ai-agents",
+                  "bun",
+                  "claude-code",
+                  "codex",
+                  "developer-tools",
+                  "effect-ts",
+                  "evidence-graph",
+                  "llm-observability",
+                  "surrealdb",
+                  "typescript"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -2142,12 +3884,30 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Lightweight cost observability for every API call in your stack. Track LLM tokens, database ops, and external services from your terminal.",
+                "homepage": "https://burn0.dev",
                 "id": 1186206329,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-06T20:58:49Z",
+                "open_issues": 2,
                 "owner": "burn0-dev",
                 "repo": "burn0",
-                "stars": 44
+                "stars": 44,
+                "topics": [
+                  "ai",
+                  "anthropic",
+                  "api-monitoring",
+                  "cost-tracking",
+                  "developer-tools",
+                  "hacktoberfest",
+                  "llm",
+                  "llmops",
+                  "nodejs",
+                  "observability",
+                  "openai",
+                  "typescript"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -2158,12 +3918,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 1273370027,
                 "language": "TypeScript",
-                "last_commit": "2026-08-27T17:28:40Z",
+                "license": "NOASSERTION",
+                "last_commit": "2026-08-29T01:10:16Z",
+                "open_issues": 79,
                 "owner": "newrelic-experimental",
                 "repo": "preflight",
-                "stars": 41
+                "stars": 41,
+                "topics": []
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -2174,12 +3939,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Diff your AI agent's behavior between two runs. See exactly which tool calls, args, costs and outputs changed when you swap models or edit prompts.",
+                "homepage": "https://www.npmjs.com/package/whatbroke-cli",
                 "id": 1308421534,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-06T06:19:19Z",
+                "open_issues": 1,
                 "owner": "arthi-arumugam-git",
                 "repo": "whatbroke",
-                "stars": 20
+                "stars": 20,
+                "topics": [
+                  "agent-testing",
+                  "agents",
+                  "ai",
+                  "ai-agents",
+                  "ai-tools",
+                  "anthropic",
+                  "cli",
+                  "developer-tools",
+                  "diff",
+                  "evals",
+                  "llm",
+                  "llm-evaluation",
+                  "llmops",
+                  "nodejs",
+                  "observability",
+                  "openai",
+                  "regression-testing",
+                  "testing",
+                  "tracing",
+                  "typescript"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -2190,12 +3981,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open-source, local observability TUI for Claude Code and Codex — context, cost, tokens, agents, tools, compactions, and code changes.",
+                "homepage": "https://aether.haciensus.com",
                 "id": 1228245012,
                 "language": "Rust",
+                "license": "MIT",
                 "last_commit": "2026-07-21T15:18:35Z",
+                "open_issues": 0,
                 "owner": "connectchiragg",
                 "repo": "aether",
-                "stars": 9
+                "stars": 9,
+                "topics": [
+                  "ai-agents",
+                  "claude-code",
+                  "codex",
+                  "developer-tools",
+                  "llm-observability",
+                  "observability",
+                  "rust",
+                  "terminal-ui",
+                  "tui"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             },
@@ -2206,12 +4012,34 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Point it at any Grafana → full AI/LLM observability: FinOps by sovereignty, agents, EU AI Act — generated, deployed, vision-verified. Zero-dependency Agent Skill + CLI.",
+                "homepage": null,
                 "id": 1298382785,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-07-23T13:45:17Z",
+                "open_issues": 0,
                 "owner": "alebgl77",
                 "repo": "grafana-llmops-forge",
-                "stars": 1
+                "stars": 1,
+                "topics": [
+                  "agent-skills",
+                  "ai-governance",
+                  "ai-observability",
+                  "claude-code",
+                  "claude-skills",
+                  "eu-ai-act",
+                  "finops",
+                  "grafana",
+                  "grafana-dashboards",
+                  "litellm",
+                  "llm-observability",
+                  "llmops",
+                  "opentelemetry",
+                  "prometheus",
+                  "sre",
+                  "vllm"
+                ]
               },
               "first_seen": "2026-08-28T12:45:09.718Z"
             }
@@ -2233,12 +4061,30 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "GPU & Accelerator process monitoring for AMD, Apple, Huawei, Intel, NVIDIA and Qualcomm",
+            "homepage": null,
             "id": 94530674,
             "language": "C",
+            "license": "NOASSERTION",
             "last_commit": "2026-05-06T06:41:23Z",
+            "open_issues": 146,
             "owner": "Syllo",
             "repo": "nvtop",
-            "stars": 10945
+            "stars": 10946,
+            "topics": [
+              "adreno",
+              "amd",
+              "apple",
+              "ascend",
+              "command-line-tool",
+              "gpu",
+              "huawei",
+              "intel",
+              "linux",
+              "monitoring",
+              "ncurses",
+              "nvidia"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2249,12 +4095,37 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "An interactive NVIDIA-GPU process viewer and beyond, the one-stop solution for GPU process management.",
+            "homepage": "https://nvitop.readthedocs.io",
             "id": 332736941,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-27T05:01:07Z",
+            "open_issues": 19,
             "owner": "XuehaiPan",
             "repo": "nvitop",
-            "stars": 7125
+            "stars": 7127,
+            "topics": [
+              "command-line-tool",
+              "console",
+              "cuda",
+              "curses",
+              "gpu",
+              "gpu-monitoring",
+              "grafana",
+              "grafana-dashboard",
+              "htop",
+              "monitoring",
+              "monitoring-tool",
+              "nvidia",
+              "nvidia-smi",
+              "nvml",
+              "process-monitoring",
+              "prometheus",
+              "prometheus-exporter",
+              "resource-monitor",
+              "top"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2265,12 +4136,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "NVIDIA GPU metrics exporter for Prometheus leveraging DCGM",
+            "homepage": null,
             "id": 395039200,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-19T03:40:51Z",
+            "open_issues": 184,
             "owner": "NVIDIA",
             "repo": "dcgm-exporter",
-            "stars": 1847
+            "stars": 1847,
+            "topics": []
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2281,12 +4157,31 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Nvidia GPU exporter for prometheus using nvidia-smi binary OR using NVML",
+            "homepage": null,
             "id": 375163159,
             "language": "Go",
-            "last_commit": "2026-08-28T05:16:37Z",
+            "license": "MIT",
+            "last_commit": "2026-08-28T22:37:08Z",
+            "open_issues": 6,
             "owner": "utkuozdemir",
             "repo": "nvidia_gpu_exporter",
-            "stars": 1546
+            "stars": 1546,
+            "topics": [
+              "ai",
+              "cryptocurrency",
+              "gaming",
+              "inference",
+              "llm",
+              "llm-training",
+              "monitoring",
+              "nvidia",
+              "nvidia-gpu",
+              "nvidia-smi",
+              "nvml",
+              "prometheus",
+              "prometheus-exporter"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2297,12 +4192,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Plug-and-play homelab dashboard in one container — GPU, local-AI VRAM, Docker, systemd, host health. Built-in read-only MCP server so AI agents can explore it too.",
+            "homepage": "https://sikamikanikobg.github.io/homelab-monitor/",
             "id": 1249045671,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-08-28T11:21:45Z",
+            "open_issues": 3,
             "owner": "SikamikanikoBG",
             "repo": "homelab-monitor",
-            "stars": 186
+            "stars": 186,
+            "topics": [
+              "agentic",
+              "ai-agents",
+              "ai-infrastructure",
+              "claude",
+              "dashboard",
+              "docker",
+              "gpu",
+              "gpu-monitoring",
+              "homelab",
+              "llm",
+              "local-ai",
+              "mcp",
+              "mcp-server",
+              "model-context-protocol",
+              "monitoring",
+              "nvidia",
+              "ollama",
+              "self-hosted",
+              "sysadmin",
+              "vram"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2313,12 +4234,30 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Kubernetes scanner that discovers LLMs running on vLLM and extracts their deployment and runtime facts.",
+            "homepage": "https://www.paralleliq.ai",
             "id": 1088011449,
             "language": "Python",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-22T06:46:34Z",
+            "open_issues": 8,
             "owner": "paralleliq",
             "repo": "piqc",
-            "stars": 25
+            "stars": 25,
+            "topics": [
+              "ai-infrastructure",
+              "cloud-native",
+              "gpu",
+              "introspection",
+              "kubernetes",
+              "llm",
+              "llm-inference",
+              "mlops",
+              "model-discovery",
+              "model-serving",
+              "modelspec",
+              "vllm"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         }
@@ -2335,12 +4274,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.",
+            "homepage": "https://www.zabbix.com/",
             "id": 17253775,
             "language": "Go Template",
-            "last_commit": "2026-08-28T11:00:43Z",
+            "license": "AGPL-3.0",
+            "last_commit": "2026-08-28T19:00:40Z",
+            "open_issues": 108,
             "owner": "zabbix",
             "repo": "zabbix",
-            "stars": 6316
+            "stars": 6317,
+            "topics": [
+              "alerting",
+              "application-monitoring",
+              "metrics",
+              "monitoring",
+              "network-monitoring",
+              "zabbix"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2351,12 +4302,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "eBPF Observability - Distributed Tracing and Profiling",
+            "homepage": "https://deepflow.io",
             "id": 448599559,
             "language": "Go",
-            "last_commit": "2026-08-28T11:12:43Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T01:02:53Z",
+            "open_issues": 268,
             "owner": "deepflowio",
             "repo": "deepflow",
-            "stars": 4246
+            "stars": 4246,
+            "topics": [
+              "apm",
+              "gpu",
+              "kubernetes",
+              "llm",
+              "opentelemetry",
+              "wasm",
+              "zero-code"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2367,12 +4331,33 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Distributed tracing without code changes. 🚀 Instantly monitor any application using OpenTelemetry and eBPF",
+            "homepage": "https://odigos.io",
             "id": 501095512,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T10:44:08Z",
+            "open_issues": 119,
             "owner": "odigos-io",
             "repo": "odigos",
-            "stars": 3676
+            "stars": 3677,
+            "topics": [
+              "dotnet",
+              "ebpf",
+              "go",
+              "java",
+              "javascript",
+              "kubernetes",
+              "logs",
+              "metrics",
+              "monitoring",
+              "nodejs",
+              "observability",
+              "opentelemetry",
+              "otel",
+              "python",
+              "traces"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2383,12 +4368,37 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "DataBuff is an AI-native APM built on Opentelemetry，with multi-agent troubleshooting out of the box.",
+            "homepage": "https://databuff.ai",
             "id": 1272859739,
             "language": "Java",
+            "license": "AGPL-3.0",
             "last_commit": "2026-08-26T12:12:51Z",
+            "open_issues": 12,
             "owner": "databufflabs",
             "repo": "databuff",
-            "stars": 610
+            "stars": 610,
+            "topics": [
+              "aiops",
+              "apm",
+              "application-monitoring",
+              "devops",
+              "distributed-tracing",
+              "ebpf",
+              "java",
+              "llm-observability",
+              "microservices",
+              "monitoring",
+              "multi-agent",
+              "observability",
+              "open-source",
+              "opentelemetry",
+              "otlp",
+              "root-cause-analysis",
+              "skywalking",
+              "sreagent",
+              "tracing"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2399,12 +4409,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Get logs, metrics, and traces in one tool with features like APM, distributed tracing, log management, infra monitoring, etc. Combined with SigNoz MCP and a native AI teammate (in SigNoz Cloud) it helps you build more resilient apps.",
+            "homepage": "https://signoz.io",
             "id": 326404870,
             "language": "TypeScript",
-            "last_commit": "2026-08-28T12:26:52Z",
+            "license": "NOASSERTION",
+            "last_commit": "2026-08-28T14:58:50Z",
+            "open_issues": 1546,
             "owner": "SigNoz",
             "repo": "signoz",
-            "stars": 31956
+            "stars": 31958,
+            "topics": [
+              "apm",
+              "application-monitoring",
+              "distributed-tracing",
+              "go",
+              "good-first-issue",
+              "jaeger",
+              "log",
+              "logs",
+              "metrics",
+              "monitoring",
+              "nextjs",
+              "observability",
+              "open-source",
+              "opentelemetry",
+              "prometheus",
+              "react",
+              "reactjs",
+              "self-hosted",
+              "tracing",
+              "typescript"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2415,12 +4451,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "APM, (Application Performance Management) tool for large-scale distributed systems. ",
+            "homepage": "https://pinpoint-apm.gitbook.io/",
             "id": 25459400,
             "language": "Java",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T02:21:54Z",
+            "open_issues": 538,
             "owner": "pinpoint-apm",
             "repo": "pinpoint",
-            "stars": 13861
+            "stars": 13861,
+            "topics": [
+              "agent",
+              "apm",
+              "distributed-tracing",
+              "monitoring",
+              "performance",
+              "tracing"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2431,12 +4479,25 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": " An open-source and enterprise-level monitoring system.",
+            "homepage": null,
             "id": 55850689,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2024-04-24T09:15:56Z",
+            "open_issues": 181,
             "owner": "open-falcon",
             "repo": "falcon-plus",
-            "stars": 7233
+            "stars": 7233,
+            "topics": [
+              "falcon",
+              "falcon-ng",
+              "grafana",
+              "monitoring",
+              "nightingale",
+              "obsuite",
+              "time-series"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2447,12 +4508,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Hubble - Network, Service & Security Observability for Kubernetes using eBPF",
+            "homepage": null,
             "id": 222612062,
             "language": "Makefile",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-24T16:05:55Z",
+            "open_issues": 44,
             "owner": "cilium",
             "repo": "hubble",
-            "stars": 4315
+            "stars": 4315,
+            "topics": [
+              "cilium",
+              "ebpf",
+              "kubernetes",
+              "metrics",
+              "networking",
+              "observability",
+              "security",
+              "tracing"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2463,12 +4538,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Observe any stack, any service and any data,  using any UI components you prefer, never missing any X factors and resolve them before they become real problems. ",
+            "homepage": "https://deepops.io",
             "id": 105098649,
             "language": "TypeScript",
+            "license": "NOASSERTION",
             "last_commit": "2025-03-04T08:46:43Z",
+            "open_issues": 46,
             "owner": "origin-brain",
             "repo": "deepops",
-            "stars": 3966
+            "stars": 3966,
+            "topics": [
+              "apm",
+              "jaeger",
+              "observability",
+              "opentelemetry",
+              "prometheus",
+              "tracing",
+              "xo"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2479,12 +4567,32 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Scouter is an open source APM (Application Performance Management) tool.",
+            "homepage": null,
             "id": 36840131,
             "language": "Java",
+            "license": "NOASSERTION",
             "last_commit": "2026-03-01T23:36:55Z",
+            "open_issues": 20,
             "owner": "scouter-project",
             "repo": "scouter",
-            "stars": 2181
+            "stars": 2181,
+            "topics": [
+              "agent",
+              "apm",
+              "asm",
+              "bci",
+              "bytecode",
+              "java-application",
+              "metrics",
+              "monitoring",
+              "performance",
+              "performance-metrics",
+              "performance-monitoring",
+              "scouter",
+              "scouter-series",
+              "tomcat"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2495,12 +4603,37 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "[Moved to cloudprober/cloudprober] An active monitoring software to detect failures before your customers do.",
+            "homepage": "https://cloudprober.org",
             "id": 93106035,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2021-10-29T01:03:34Z",
+            "open_issues": 4,
             "owner": "google",
             "repo": "cloudprober",
-            "stars": 1395
+            "stars": 1395,
+            "topics": [
+              "blackbox",
+              "cloud",
+              "cloudprober",
+              "devops",
+              "distributed-monitoring",
+              "gcp",
+              "golang",
+              "google",
+              "grafana",
+              "k8s",
+              "kubernetes",
+              "monitoring",
+              "observability",
+              "ping",
+              "probe",
+              "prober",
+              "prometheus",
+              "sre",
+              "stackdriver"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2511,12 +4644,17 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "Soda SQL and Soda Spark have been deprecated and replaced by Soda Core. docs.soda.io/soda-core/overview.html",
+            "homepage": "https://docs.soda.io/",
             "id": 472677283,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2022-11-30T20:20:48Z",
+            "open_issues": 126,
             "owner": "sodadata",
             "repo": "soda-sql",
-            "stars": 62
+            "stars": 62,
+            "topics": []
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2527,12 +4665,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "record and replay the web",
+            "homepage": "https://www.rrweb.io/",
             "id": 151843254,
             "language": "TypeScript",
+            "license": "MIT",
             "last_commit": "2026-08-24T05:55:42Z",
+            "open_issues": 423,
             "owner": "rrweb-io",
             "repo": "rrweb",
-            "stars": 20087
+            "stars": 20089,
+            "topics": [
+              "fullstory",
+              "hotjar",
+              "logrocket",
+              "recorder",
+              "session-replay"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2543,12 +4692,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Privacy-first endpoint health for Node, Go, and OpenTelemetry services.",
+            "homepage": "https://health.sassmaker.com",
             "id": 1306418865,
             "language": "TypeScript",
+            "license": null,
             "last_commit": "2026-08-24T05:39:50Z",
+            "open_issues": 0,
             "owner": "sass-maker",
             "repo": "app-health",
-            "stars": 0
+            "stars": 0,
+            "topics": [
+              "application-monitoring",
+              "developer-tools",
+              "golang",
+              "nodejs",
+              "observability",
+              "opentelemetry",
+              "privacy",
+              "typescript"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         }
@@ -2565,12 +4728,32 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Distributed version of Spring Petclinic built with Spring Cloud",
+            "homepage": null,
             "id": 73559008,
             "language": "Java",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-21T06:42:46Z",
+            "open_issues": 12,
             "owner": "spring-petclinic",
             "repo": "spring-petclinic-microservices",
-            "stars": 2191
+            "stars": 2191,
+            "topics": [
+              "chaos-monkey",
+              "docker",
+              "eureka",
+              "grafana",
+              "hystrix",
+              "micrometer",
+              "microservices",
+              "opentelemetry",
+              "prometheus",
+              "resilience4j",
+              "ribbon",
+              "spring-boot-admin",
+              "spring-cloud",
+              "zipkin"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2581,12 +4764,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Observe FastAPI app with three pillars of observability: Traces (Tempo), Metrics (Prometheus), Logs (Loki) on Grafana through OpenTelemetry.",
+            "homepage": null,
             "id": 481317492,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-04-12T05:52:53Z",
+            "open_issues": 6,
             "owner": "blueswen",
             "repo": "fastapi-observability",
-            "stars": 1116
+            "stars": 1115,
+            "topics": [
+              "fastapi",
+              "grafana",
+              "loki",
+              "observability",
+              "openmetrics",
+              "opentelemetry",
+              "prometheus",
+              "tempo"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2597,12 +4794,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Observability Demo App ",
+            "homepage": null,
             "id": 336243874,
             "language": "Jsonnet",
-            "last_commit": "2026-08-28T11:06:27Z",
+            "license": null,
+            "last_commit": "2026-08-29T02:07:28Z",
+            "open_issues": 23,
             "owner": "grafana",
             "repo": "tns",
-            "stars": 241
+            "stars": 241,
+            "topics": []
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2613,12 +4815,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Lite version of the Observability Sandbox. An EDC flavor :-P",
+            "homepage": null,
             "id": 434125503,
             "language": "Shell",
+            "license": "Apache-2.0",
             "last_commit": "2023-04-03T20:08:27Z",
+            "open_issues": 0,
             "owner": "adriannovegil",
             "repo": "observability-sandbox",
-            "stars": 9
+            "stars": 9,
+            "topics": [
+              "docker",
+              "docker-compose",
+              "playground",
+              "sandbox"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2629,12 +4841,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": " Open, reproducible benchmarks for   crypto infrastructure: aggregators, bridges, blockchains, perps. Live data, public methodology.",
+            "homepage": "https://openchainbench.com/",
             "id": 1223590168,
             "language": "Go",
-            "last_commit": "2026-08-28T11:42:58Z",
+            "license": "MIT",
+            "last_commit": "2026-08-28T19:53:11Z",
+            "open_issues": 8,
             "owner": "ChainBench",
             "repo": "OpenChainBench",
-            "stars": 6
+            "stars": 6,
+            "topics": [
+              "api",
+              "benchmark",
+              "crypto",
+              "data",
+              "open-source",
+              "reproductible"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2645,12 +4869,32 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Node.js boilerplate. Docker and Kubernetes ready. Observability (health, logs, metrics, traces) included.",
+            "homepage": null,
             "id": 420957936,
             "language": "JavaScript",
+            "license": "Apache-2.0",
             "last_commit": "2026-04-15T15:28:27Z",
+            "open_issues": 22,
             "owner": "Olivr",
             "repo": "app-node-js",
-            "stars": 4
+            "stars": 4,
+            "topics": [
+              "boilerplate",
+              "docker",
+              "jaeger",
+              "kubernetes",
+              "logs",
+              "metrics",
+              "observability",
+              "opentelemetry",
+              "ostack",
+              "ostack-app",
+              "pino",
+              "prometheus",
+              "tilt",
+              "tracing"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2661,12 +4905,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "spring-petclinic-microservices-sre",
+            "homepage": null,
             "id": 420068097,
             "language": "Java",
+            "license": "Apache-2.0",
             "last_commit": "2022-07-07T21:39:08Z",
+            "open_issues": 0,
             "owner": "adriannovegil",
             "repo": "spring-petclinic-microservices-sre",
-            "stars": 2
+            "stars": 2,
+            "topics": []
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         }
@@ -2683,12 +4932,35 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "INFRASTRUCTURE、OPERATION SYSTEM and APPLICATION monitoring tools.",
+            "homepage": "http://canuxcheng.com/awesome-monitoring/",
             "id": 59476603,
             "language": "Go",
+            "license": null,
             "last_commit": "2025-02-25T14:07:35Z",
+            "open_issues": 22,
             "owner": "crazy-canux",
             "repo": "awesome-monitoring",
-            "stars": 742
+            "stars": 742,
+            "topics": [
+              "apm",
+              "awesome",
+              "awesome-list",
+              "devops",
+              "elasticsearch",
+              "grafana",
+              "influxdb",
+              "kibana",
+              "logging",
+              "loki",
+              "metrics",
+              "monitoring",
+              "nagios",
+              "observability",
+              "prometheus",
+              "tracing",
+              "zabbix"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2699,12 +4971,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "List of tools for monitoring and analyze everything",
+            "homepage": null,
             "id": 87634891,
             "language": null,
+            "license": "NOASSERTION",
             "last_commit": "2026-08-04T17:00:13Z",
+            "open_issues": 11,
             "owner": "Enapiuz",
             "repo": "awesome-monitoring",
-            "stars": 422
+            "stars": 422,
+            "topics": [
+              "awesome",
+              "awesome-list",
+              "hacktoberfest",
+              "monitoring"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2715,12 +4997,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Awesome chaos engineering page",
+            "homepage": null,
             "id": 226196314,
             "language": null,
+            "license": "CC0-1.0",
             "last_commit": "2026-07-20T08:17:04Z",
+            "open_issues": 2,
             "owner": "adriannovegil",
             "repo": "awesome-chaos-engineering",
-            "stars": 45
+            "stars": 45,
+            "topics": [
+              "awesome",
+              "awesome-list",
+              "chaos",
+              "chaos-engineering"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2731,12 +5023,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Awesome SRE page",
+            "homepage": null,
             "id": 246025322,
             "language": null,
+            "license": "CC0-1.0",
             "last_commit": "2026-07-20T15:35:14Z",
+            "open_issues": 3,
             "owner": "adriannovegil",
             "repo": "awesome-sre",
-            "stars": 13
+            "stars": 13,
+            "topics": [
+              "awesome",
+              "awesome-list",
+              "sre"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         },
@@ -2747,12 +5048,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Awesome profiling page",
+            "homepage": null,
             "id": 308580737,
             "language": null,
+            "license": "CC0-1.0",
             "last_commit": "2026-07-20T15:15:09Z",
+            "open_issues": 1,
             "owner": "adriannovegil",
             "repo": "awesome-profiling",
-            "stars": 12
+            "stars": 12,
+            "topics": [
+              "awesome",
+              "awesome-list",
+              "profiling"
+            ]
           },
           "first_seen": "2026-08-28T12:45:09.718Z"
         }
@@ -2761,15 +5071,24 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T12:45:09.718Z",
+    "last_updated": "2026-08-29T04:41:43.097Z",
     "original_repository_info": {
       "archived": false,
+      "description": "Awesome observability page",
+      "homepage": null,
       "id": 200418696,
       "language": "Makefile",
+      "license": "CC0-1.0",
       "last_commit": "2026-08-15T20:44:38Z",
+      "open_issues": 9,
       "owner": "adriannovegil",
       "repo": "awesome-observability",
-      "stars": 657
+      "stars": 657,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "observability"
+      ]
     },
     "original_repository_sha": "2a46e8c3f69d16843454b3250eea81690201c5fb",
     "enhanced_repository": "enhansome/enhansome-observability",
