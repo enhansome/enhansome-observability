@@ -108,7 +108,7 @@ Get any data – metrics, events, logs, traces – from everywhere – systems, 
 * [Express State Metrics](https://github.com/RafalWilinski/express-status-monitor) ⭐ 3,615 | 🐛 68 | 🌐 JavaScript | 📅 2026-02-16 - Simple, self-hosted module based on Socket.io and Chart.js to report realtime server metrics for Express-based node servers.
 * [Netflix Vector](https://github.com/Netflix/vector) ⚠️ Archived - An on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer's browser.
 * [MyPerf4J](https://github.com/LinShunKang/MyPerf4J) ⭐ 3,560 | 🐛 5 | 🌐 Java | 📅 2026-07-31 - High performance Java APM. Powered by ASM. Try it. Test it. If you feel its better, use it.
-* [netwatch](https://github.com/matthart1983/netwatch) ⭐ 2,606 | 🐛 2 | 🌐 Rust | 📅 2026-08-15 - Network diagnostics TUI for operators: real-time per-process connection attribution via an eBPF kprobe (with `lsof`/`ss` fallback), libpcap-based deep packet inspection across 13 protocols (TLS, QUIC, HTTP, DNS, SSH, MQTT, SNMP, ...), full RFC 9001 QUIC Initial decryption with cross-packet ClientHello reassembly, JA4 fingerprinting, TCP retransmit and out-of-order analytics, and an optional Landlock sandbox. Rust, MIT, macOS and Linux.
+* [netwatch](https://github.com/matthart1983/netwatch) ⭐ 2,616 | 🐛 2 | 🌐 Rust | 📅 2026-08-15 - Network diagnostics TUI for operators: real-time per-process connection attribution via an eBPF kprobe (with `lsof`/`ss` fallback), libpcap-based deep packet inspection across 13 protocols (TLS, QUIC, HTTP, DNS, SSH, MQTT, SNMP, ...), full RFC 9001 QUIC Initial decryption with cross-packet ClientHello reassembly, JA4 fingerprinting, TCP retransmit and out-of-order analytics, and an optional Landlock sandbox. Rust, MIT, macOS and Linux.
 * [SkyAPM-dotnet](https://github.com/SkyAPM/SkyAPM-dotnet) ⭐ 1,658 | 🐛 3 | 🌐 C# | 📅 2026-08-01 - Native support agent in C# and .NETStandard platform, with the helps from Apache SkyWalking committer team.
 * [pktvisor](https://github.com/ns1labs/pktvisor) ⭐ 523 | 🐛 2 | 🌐 C++ | 📅 2026-08-26 - Observability agent for summarizing high volume, information dense data streams down to lightweight, immediately actionable observability data directly at the edge.
 * [inspectIT Ocelot](https://github.com/inspectIT/inspectit-ocelot) ⭐ 221 | 🐛 80 | 🌐 Java | 📅 2026-02-11 - Java agent for collecting performance, tracing and business data.
@@ -128,7 +128,7 @@ Get any data – metrics, events, logs, traces – from everywhere – systems, 
 <!--lint ignore double-link-->
 
 * [Elastic Beats](https://github.com/elastic/beats) ⭐ 12,640 | 🐛 1,051 | 🌐 Go | 📅 2026-08-28 - Lightweight shippers for Elasticsearch & Logstash, Elastic stack.
-* [Grafana Alloy](https://github.com/grafana/alloy) ⭐ 3,482 | 🐛 1,207 | 🌐 Go | 📅 2026-08-28 - Grafana's OpenTelemetry Collector distribution that unifies logs, metrics, and traces in a single agent; the supported successor to Promtail and Grafana Agent.
+* [Grafana Alloy](https://github.com/grafana/alloy) ⭐ 3,483 | 🐛 1,208 | 🌐 Go | 📅 2026-08-28 - Grafana's OpenTelemetry Collector distribution that unifies logs, metrics, and traces in a single agent; the supported successor to Promtail and Grafana Agent.
 * [mTAIL](http://ophilipp.free.fr/op_tail.htm) - Windows program that extract internal monitoring data from application logs for collection in a timeseries database.
 
 ### Events & Problems
@@ -140,7 +140,7 @@ Get any data – metrics, events, logs, traces – from everywhere – systems, 
 ## 4. Load Generators and Synthetic Traffic
 
 * [Locust](https://github.com/locustio/locust) ⭐ 28,112 | 🐛 3 | 🌐 Python | 📅 2026-08-26 - Easy-to-use, distributed, user load testing tool. It is intended for load-testing web sites (or other systems) and figuring out how many concurrent users a system can handle.
-* [Vegeta](https://github.com/tsenart/vegeta) ⭐ 25,170 | 🐛 122 | 🌐 Go | 📅 2026-02-16 - HTTP load testing tool built out of a need to drill HTTP services with a constant request rate. It can be used both as a command line utility and a library.
+* [Vegeta](https://github.com/tsenart/vegeta) ⭐ 25,169 | 🐛 122 | 🌐 Go | 📅 2026-02-16 - HTTP load testing tool built out of a need to drill HTTP services with a constant request rate. It can be used both as a command line utility and a library.
 * [GoReplay](https://github.com/buger/goreplay) ⭐ 19,319 | 🐛 341 | 🌐 Go | 📅 2026-01-27 - Open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data.
 * [ghz](https://github.com/bojand/ghz) ⭐ 3,349 | 🐛 101 | 🌐 Go | 📅 2026-08-01 - Simple gRPC benchmarking and load testing tool inspired by hey and grpcurl.
 * [Yandex Tank](https://github.com/yandex/yandex-tank) ⭐ 2,597 | 🐛 84 | 🌐 Python | 📅 2026-08-19 - Yandex.Tank is an extensible open source load testing tool for advanced Linux users which is especially good as a part of an automated load testing suite.
@@ -159,7 +159,7 @@ Get any data – metrics, events, logs, traces – from everywhere – systems, 
 
 The transport tools simply serve as transport pipelines for data. This includes messaging systems, proprietary protocols and exchange formats.
 
-* [RocketMQ](https://github.com/apache/incubator-rocketmq) ⭐ 22,571 | 🐛 576 | 🌐 Java | 📅 2026-08-26 - A low latency, reliable, scalable, easy to use message oriented middleware born from alibaba massive messaging business.
+* [RocketMQ](https://github.com/apache/incubator-rocketmq) ⭐ 22,571 | 🐛 578 | 🌐 Java | 📅 2026-08-26 - A low latency, reliable, scalable, easy to use message oriented middleware born from alibaba massive messaging business.
 * [Aeron](https://github.com/real-logic/Aeron) ⭐ 8,824 | 🐛 26 | 🌐 Java | 📅 2026-08-28 - Efficient reliable UDP unicast, UDP multicast, and IPC message transport.
 * [Disque](https://github.com/antirez/disque) ⭐ 8,074 | 🐛 59 | 🌐 C | 📅 2021-03-17 - Distributed message broker.
 * [VerneMQ](https://github.com/vernemq/vernemq) ⭐ 3,625 | 🐛 164 | 🌐 Erlang | 📅 2026-08-28 - Open source software, extendable, and enterprise support is available.
@@ -196,7 +196,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### Metrics
 
-* [Telegraf](https://github.com/influxdata/telegraf) ⭐ 17,776 | 🐛 427 | 🌐 Go | 📅 2026-08-26 - TICK stack, The plugin-driven server agent for collecting & reporting metrics.
+* [Telegraf](https://github.com/influxdata/telegraf) ⭐ 17,777 | 🐛 426 | 🌐 Go | 📅 2026-08-26 - TICK stack, The plugin-driven server agent for collecting & reporting metrics.
 
 <!--lint ignore double-link-->
 
@@ -208,7 +208,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 <!--lint ignore double-link-->
 
-* [Loki](https://github.com/grafana/loki) ⭐ 28,799 | 🐛 1,729 | 🌐 Go | 📅 2026-08-29 - Horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
+* [Loki](https://github.com/grafana/loki) ⭐ 28,799 | 🐛 1,728 | 🌐 Go | 📅 2026-08-29 - Horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
 * [logdy](https://github.com/logdyhq/logdy-core) ⭐ 2,284 | 🐛 36 | 🌐 Go | 📅 2025-08-25 - Supercharge terminal logs with web browser UI and low-code. It's like jq, tail, less, grep and awk merged together and available in a clean UI. Self-hosted, single binary.
 * [Logbook](https://github.com/zalando/logbook) ⭐ 2,060 | 🐛 32 | 🌐 Java | 📅 2026-08-28 - Extensible Java library to enable complete request and response logging for different client- and server-side technologies.
 * [Brubeck](https://github.com/github/brubeck) ⚠️ Archived - Statsd-compatible stats aggregator written in C.
@@ -232,7 +232,7 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 <!--lint ignore double-link-->
 
-* [GreptimeDB](https://github.com/GreptimeTeam/greptimedb) ⭐ 6,580 | 🐛 241 | 🌐 Rust | 📅 2026-08-28 - Open-source, cloud-native observability database with unified SQL and PromQL support for metrics, logs, and traces.
+* [GreptimeDB](https://github.com/GreptimeTeam/greptimedb) ⭐ 6,580 | 🐛 241 | 🌐 Rust | 📅 2026-08-29 - Open-source, cloud-native observability database with unified SQL and PromQL support for metrics, logs, and traces.
 * [Netflix Atlas](https://github.com/Netflix/atlas) ⭐ 3,564 | 🐛 8 | 🌐 Scala | 📅 2026-08-28 - Atlas features in-memory data storage, allowing it to gather and report very large numbers of metrics, very quickly.
 * [Metric Tank](https://github.com/grafana/metrictank) ⚠️ Archived - Provides high availability and efficient long-term storage, retrieval, and processing for large-scale environments.
 * [LynxDB](https://github.com/lynxbase/lynxdb) ⭐ 283 | 🐛 8 | 🌐 Go | 📅 2026-08-15 - Lightweight columnar log analytics database with a pipe-style query language inspired by SPL.
@@ -311,11 +311,11 @@ In addition, collectors can have other responsibilities. For example, some expos
 
 ### Dashboarding
 
-* [Kibana](https://github.com/elastic/kibana) ⭐ 21,270 | 🐛 14,307 | 🌐 TypeScript | 📅 2026-08-29 - Elastic stack.
+* [Kibana](https://github.com/elastic/kibana) ⭐ 21,270 | 🐛 14,296 | 🌐 TypeScript | 📅 2026-08-29 - Elastic stack.
 * [Chronograf](https://github.com/influxdata/chronograf) ⭐ 1,567 | 🐛 50 | 🌐 TypeScript | 📅 2026-08-11 - User interface and administrative component of the InfluxDB platform.
 * [Skooner](https://github.com/skooner-k8s/skooner) ⭐ 1,443 | 🐛 110 | 🌐 JavaScript | 📅 2024-06-30 - Simple Kubernetes real-time dashboard and management.
 * [SLO-Tracker](https://github.com/roshan8/slo-tracker) ⭐ 403 | 🐛 2 | 🌐 TypeScript | 📅 2023-01-30 - A simple but effective way to track SLO's and Error budgets. SLO-tracker can be integrated with few alerting tools via webhook integration to receive SLO voilating incidents.
-* [KubeStellar Console](https://github.com/kubestellar/console) ⭐ 129 | 🐛 13 | 🌐 TypeScript | 📅 2026-08-29 - AI-powered multi-cluster Kubernetes dashboard with real-time observability across edge and cloud clusters, CNCF project integrations (Prometheus, Grafana, Istio, Falco, OPA), and 160+ monitoring cards.
+* [KubeStellar Console](https://github.com/kubestellar/console) ⭐ 129 | 🐛 12 | 🌐 TypeScript | 📅 2026-08-29 - AI-powered multi-cluster Kubernetes dashboard with real-time observability across edge and cloud clusters, CNCF project integrations (Prometheus, Grafana, Istio, Falco, OPA), and 160+ monitoring cards.
 * [StatLite](https://github.com/PVRLabs/statlite) ⭐ 127 | 🐛 3 | 🌐 Go | 📅 2026-08-28 - Ultra-light self-hosted metrics dashboard for small Spring Boot deployments. Polls Spring Boot Actuator directly, stores samples in SQLite, and runs as a single Go binary.
 * [Grafana](https://grafana.com/oss/grafana/) - The first really good dashboard for displaying metrics.
 
@@ -374,7 +374,7 @@ Tools for rocessing the system data.
 
 ### Processing
 
-* [Vector](https://github.com/timberio/vector) ⭐ 22,476 | 🐛 2,512 | 🌐 Rust | 📅 2026-08-29 - High-performance observability data router. It makes collecting, transforming, and sending logs, metrics, and events easy. It decouples data collection & routing from your services, giving you control and data ownership, among many other benefits.
+* [Vector](https://github.com/timberio/vector) ⭐ 22,480 | 🐛 2,512 | 🌐 Rust | 📅 2026-08-29 - High-performance observability data router. It makes collecting, transforming, and sending logs, metrics, and events easy. It decouples data collection & routing from your services, giving you control and data ownership, among many other benefits.
 * [Logstash](https://www.elastic.co/es/products/logstash) - Open source, server-side data processing pipeline that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite "stash".
 * [Fluentd](https://www.fluentd.org/) - Open source data collector for unified logging layer.
 
@@ -434,18 +434,18 @@ As LLMs and AI agents become core to modern applications, observability for thes
 
 ### Platforms
 
-* [Langfuse](https://github.com/langfuse/langfuse) ⭐ 33,872 | 🐛 860 | 🌐 TypeScript | 📅 2026-08-29 - Open source LLM engineering platform for observability, metrics, evals, prompt management and datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more.
-* [Opik](https://github.com/comet-ml/opik) ⭐ 21,659 | 🐛 213 | 🌐 Python | 📅 2026-08-28 - Debug, evaluate, and monitor LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.
-* [Arize Phoenix](https://github.com/Arize-ai/phoenix) ⭐ 11,229 | 🐛 916 | 🌐 Python | 📅 2026-08-29 - Open-source AI observability platform for tracing, evaluation, datasets, experiments, prompt management and playground. Built on OpenTelemetry with Python and TypeScript support.
-* [Helicone](https://github.com/Helicone/helicone) ⭐ 6,109 | 🐛 155 | 🌐 TypeScript | 📅 2026-08-26 - Open source LLM observability platform and AI Gateway. One line of code to monitor, evaluate, and experiment across 100+ providers.
-* [Agenta](https://github.com/Agenta-AI/agenta) ⭐ 4,627 | 🐛 290 | 🌐 TypeScript | 📅 2026-08-28 - Open-source LLMOps platform for prompt playground, prompt management, LLM evaluation, and observability.
-* [Latitude](https://github.com/latitude-dev/latitude-llm) ⭐ 4,605 | 🐛 115 | 🌐 TypeScript | 📅 2026-08-28 - Open-source LLM observability and evaluation platform. Traces, monitors, and evaluates AI agents in production, clusters failures into issues, and generates evals from real-world failures. Built on OpenTelemetry with OpenInference and OpenLLMetry support.
+* [Langfuse](https://github.com/langfuse/langfuse) ⭐ 33,881 | 🐛 861 | 🌐 TypeScript | 📅 2026-08-29 - Open source LLM engineering platform for observability, metrics, evals, prompt management and datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more.
+* [Opik](https://github.com/comet-ml/opik) ⭐ 21,661 | 🐛 213 | 🌐 Python | 📅 2026-08-28 - Debug, evaluate, and monitor LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.
+* [Arize Phoenix](https://github.com/Arize-ai/phoenix) ⭐ 11,232 | 🐛 924 | 🌐 Python | 📅 2026-08-29 - Open-source AI observability platform for tracing, evaluation, datasets, experiments, prompt management and playground. Built on OpenTelemetry with Python and TypeScript support.
+* [Helicone](https://github.com/Helicone/helicone) ⭐ 6,110 | 🐛 155 | 🌐 TypeScript | 📅 2026-08-26 - Open source LLM observability platform and AI Gateway. One line of code to monitor, evaluate, and experiment across 100+ providers.
+* [Agenta](https://github.com/Agenta-AI/agenta) ⭐ 4,633 | 🐛 292 | 🌐 TypeScript | 📅 2026-08-29 - Open-source LLMOps platform for prompt playground, prompt management, LLM evaluation, and observability.
+* [Latitude](https://github.com/latitude-dev/latitude-llm) ⭐ 4,606 | 🐛 115 | 🌐 TypeScript | 📅 2026-08-28 - Open-source LLM observability and evaluation platform. Traces, monitors, and evaluates AI agents in production, clusters failures into issues, and generates evals from real-world failures. Built on OpenTelemetry with OpenInference and OpenLLMetry support.
 * [Pydantic Logfire](https://github.com/pydantic/logfire) ⭐ 4,444 | 🐛 194 | 🌐 Python | 📅 2026-08-29 - AI observability platform for production LLM and agent systems. Built on OpenTelemetry with first-class Pydantic AI support.
 * [Laminar](https://github.com/lmnr-ai/lmnr) ⭐ 3,207 | 🐛 118 | 🌐 TypeScript | 📅 2026-08-28 - Open-source observability and analytics platform purpose-built for AI agents. Built in Rust for performance.
-* [OpenLIT](https://github.com/openlit/openlit) ⭐ 2,721 | 🐛 55 | 🌐 TypeScript | 📅 2026-08-28 - OTel-native observability and evals for LLMs and GPUs.
+* [OpenLIT](https://github.com/openlit/openlit) ⭐ 2,722 | 🐛 57 | 🌐 TypeScript | 📅 2026-08-28 - OTel-native observability and evals for LLMs and GPUs.
 * [Langtrace](https://github.com/Scale3-Labs/langtrace) ⭐ 1,229 | 🐛 2 | 🌐 TypeScript | 📅 2025-11-17 - Open source OpenTelemetry-based observability for LLM applications.
 * [Heron](https://github.com/Netis/heron) ⭐ 93 | 🐛 3 | 🌐 Rust | 📅 2026-08-18 - Passive, SDK-free observability for LLM and agent traffic. Reconstructs agent turns and service topology from post-TLS HTTP on the wire — no SDK and no proxy in the request path. Decodes OpenAI/Anthropic/Gemini, folds multi-leg proxy hops, auto-classifies vLLM/SGLang/Ollama backends. Single static binary with embedded console, Apache-2.0.
-* [Nika](https://github.com/supernovae-st/nika) ⭐ 60 | 🐛 45 | 🌐 Rust | 📅 2026-08-28 - Workflow engine for AI where observability is built into the runtime: every run emits a typed event stream and a hash-chained, tamper-evident trace (`nika trace verify` · `nika trace show`), with static cost floors before the run and per-task cost rows after. Local-first, single Rust binary, AGPL.
+* [Nika](https://github.com/supernovae-st/nika) ⭐ 60 | 🐛 45 | 🌐 Rust | 📅 2026-08-29 - Workflow engine for AI where observability is built into the runtime: every run emits a typed event stream and a hash-chained, tamper-evident trace (`nika trace verify` · `nika trace show`), with static cost floors before the run and per-task cost rows after. Local-first, single Rust binary, AGPL.
 * [SourceryKit](https://github.com/ProvablyAI/sourcerykit) ⭐ 19 | 🐛 15 | 🌐 Python | 📅 2026-08-28 - Observability and governance for AI agent egress. Logs every outbound request and MCP handoff and verifies each against a source of truth with a zero-knowledge proof, blocking anything not on the trusted allow-list. Python SDK (source-available) with a hosted verification backend.
 * [Lookspan](https://github.com/JoniMartin27/lookspan) ⭐ 7 | 🐛 3 | 🌐 TypeScript | 📅 2026-08-28 - Local-first observability for AI agents. One command (`npx lookspan`) runs a dashboard with traces, a timeline/waterfall view, cost tracking, replay & LLM-as-judge, and datasets. MCP-native, with OpenAI/Anthropic drop-ins and an OpenTelemetry receiver — all data stays on your machine.
 * [Seerlens](https://github.com/eladser/seerlens) ⭐ 4 | 🐛 0 | 🌐 C# | 📅 2026-06-23 - Local-first, .NET-first observability and evals for LLM apps. Live tracing, cost in dollars against a budget, CI-gateable evals, and agent/MCP tool-call scoring. Built on OpenTelemetry with .NET, Python and JS SDKs.
@@ -458,15 +458,15 @@ As LLMs and AI agents become core to modern applications, observability for thes
 
 ### Instrumentation & SDKs
 
-* [OpenLLMetry](https://github.com/traceloop/openllmetry) ⭐ 7,405 | 🐛 658 | 🌐 Python | 📅 2026-08-10 - Open-source observability for LLM applications, based on OpenTelemetry.
+* [OpenLLMetry](https://github.com/traceloop/openllmetry) ⭐ 7,406 | 🐛 658 | 🌐 Python | 📅 2026-08-10 - Open-source observability for LLM applications, based on OpenTelemetry.
 * [MyScale Telemetry](https://github.com/myscale/myscale-telemetry) ⭐ 55 | 🐛 4 | 🌐 Python | 📅 2025-01-02 - Tool designed to enhance the observability of LLM applications by capturing trace data from LangChain-based applications and storing it in MyScaleDB or ClickHouse.
 * [BrowserTrace](https://github.com/aaronlab/browsertrace) ⭐ 4 | 🐛 19 | 🌐 Python | 📅 2026-05-14 - Local-first trace viewer for AI browser-agent failures, capturing screenshots, URLs, actions, model I/O, status, errors, and public-safe HTML exports.
 
 ### Cost & Usage Tracking
 
 * [Manifest](https://github.com/mnfst/manifest) ⭐ 7,483 | 🐛 115 | 🌐 TypeScript | 📅 2026-08-28 - Open-source real-time cost observability for AI agents. Tracks tokens, costs, messages, and model usage. Self-hostable, privacy-focused, and OTLP-native.
-* [onWatch](https://github.com/onllm-dev/onwatch) ⭐ 718 | 🐛 9 | 🌐 Go | 📅 2026-08-20 - Open-source Go CLI that tracks AI API quota usage across 7 providers. Background daemon with SQLite storage, Material Design 3 web dashboard, and zero telemetry.
-* [agenttrace](https://github.com/luoyuctl/agenttrace) ⭐ 124 | 🐛 7 | 🌐 Rust | 📅 2026-08-24 - TUI observability for AI coding agents. Tracks cost, tokens, tool failures, anomalies, health, and CI gates across Claude Code, Codex, Gemini CLI, Aider, and Cursor exports.
+* [onWatch](https://github.com/onllm-dev/onwatch) ⭐ 719 | 🐛 9 | 🌐 Go | 📅 2026-08-20 - Open-source Go CLI that tracks AI API quota usage across 7 providers. Background daemon with SQLite storage, Material Design 3 web dashboard, and zero telemetry.
+* [agenttrace](https://github.com/luoyuctl/agenttrace) ⭐ 125 | 🐛 7 | 🌐 Rust | 📅 2026-08-24 - TUI observability for AI coding agents. Tracks cost, tokens, tool failures, anomalies, health, and CI gates across Claude Code, Codex, Gemini CLI, Aider, and Cursor exports.
 * [ax](https://github.com/Necmttn/ax) ⭐ 103 | 🐛 34 | 🌐 TypeScript | 📅 2026-08-26 - Local telemetry for AI coding agents.
 * [burn0](https://github.com/burn0-dev/burn0) ⭐ 44 | 🐛 2 | 🌐 TypeScript | 📅 2026-08-06 - Open-source Node.js cost observability with one import. Auto-detects and tracks per-request costs for 50+ services (LLMs, SaaS, databases) via HTTP interception. Sub-millisecond overhead, local-first with optional cloud dashboard.
 * [Preflight](https://github.com/newrelic-experimental/preflight) ⭐ 41 | 🐛 79 | 🌐 TypeScript | 📅 2026-08-29 - Local-first observability for AI coding assistants. Captures every tool call (reads, edits, commands, searches), tracks USD cost per session/day/week and per model, scores efficiency, and detects anti-patterns (re-reads, blind edits, stuck loops) on a live local dashboard. Offline by default, Apache-2.0; optional New Relic backend for team rollups and alerting. Works with Claude Code, Cursor, Windsurf, Copilot, Zed, Continue.dev, and Amazon Q.
@@ -482,7 +482,7 @@ As GPU workloads become central to AI/ML production systems, observability at th
 * [nvitop](https://github.com/XuehaiPan/nvitop) ⭐ 7,127 | 🐛 19 | 🌐 Python | 📅 2026-07-27 - Interactive NVIDIA GPU process viewer with rich Python API. Ships nvitop-exporter for Prometheus metrics and Grafana dashboards, plus ResourceMetricCollector API for custom monitoring and ML framework callbacks.
 * [NVIDIA DCGM Exporter](https://github.com/NVIDIA/dcgm-exporter) ⭐ 1,847 | 🐛 184 | 🌐 Go | 📅 2026-08-19 - Official NVIDIA Prometheus exporter for GPU metrics via DCGM. Kubernetes-native with Helm support, Grafana dashboards, per-process GPU metrics, MIG support, and TLS/auth.
 * [nvidia\_gpu\_exporter](https://github.com/utkuozdemir/nvidia_gpu_exporter) ⭐ 1,546 | 🐛 6 | 🌐 Go | 📅 2026-08-28 - Lightweight Prometheus exporter for NVIDIA GPUs using nvidia-smi. No DCGM or C bindings required. Works on Linux and Windows with auto-discovered metric fields and Grafana dashboard.
-* [HomeLab Monitor](https://github.com/SikamikanikoBG/homelab-monitor) ⭐ 186 | 🐛 3 | 🌐 Python | 📅 2026-08-28 - Self-hosted dashboard that shows which Docker container is actually holding the GPU - per-container VRAM attribution, not just total utilization. Also covers host vitals, Docker health, systemd services, and multiple machines over SSH. MIT license.
+* [HomeLab Monitor](https://github.com/SikamikanikoBG/homelab-monitor) ⭐ 186 | 🐛 14 | 🌐 Python | 📅 2026-08-28 - Self-hosted dashboard that shows which Docker container is actually holding the GPU - per-container VRAM attribution, not just total utilization. Also covers host vitals, Docker health, systemd services, and multiple machines over SSH. MIT license.
 * [piqc](https://github.com/paralleliq/piqc) ⭐ 25 | 🐛 8 | 🌐 Python | 📅 2026-08-22 - Model-aware GPU waste scanner for Kubernetes inference clusters. Detects tier misplacement, idle capacity, OOM risk, and CPU:GPU imbalance, each quantified in dollars. Read-only, deploys as a Kubernetes Job.
 
 ## 12. Application Performance Monitoring Solutions (APM)
@@ -541,7 +541,7 @@ As GPU workloads become central to AI/ML production systems, observability at th
 <!--lint ignore double-link-->
 
 * [rrweb](https://github.com/rrweb-io/rrweb) ⭐ 20,089 | 🐛 423 | 🌐 TypeScript | 📅 2026-08-24 - Open-source session replay library that records the DOM and user interactions as a typed JSON event stream and replays them. Powers the session replay features of Sentry, PostHog, Amplitude, and Highlight.
-* [App Health](https://github.com/sass-maker/app-health) ⭐ 0 | 🐛 0 | 🌐 TypeScript | 📅 2026-08-24 - Privacy-first endpoint health for Node, Go, and OpenTelemetry services; projects only method, normalized route, status, duration, timestamp, and optional release into aggregate views.
+* [App Health](https://github.com/sass-maker/app-health) ⭐ 0 | 🐛 0 | 🌐 TypeScript | 📅 2026-08-29 - Privacy-first endpoint health for Node, Go, and OpenTelemetry services; projects only method, normalized route, status, duration, timestamp, and optional release into aggregate views.
 * [Sematext Cloud](https://sematext.com/) - Infrastructure, log, and digital experience monitoring with service and log auto-discovery. Basic plan is free.
 * [TraceKit](https://tracekit.dev) - Lightweight APM combining distributed tracing, live breakpoints, and session replay. Built on OpenTelemetry with SDKs for 13+ languages (frontend to backend).
 * [Apitally](https://apitally.io) - API monitoring, analytics, and request logging for REST APIs, with lightweight open-source SDKs for Python, Node.js, Go, .NET, and Java.
